@@ -1,22 +1,25 @@
+import math
+from pathlib import Path
 import json
 import hashlib
-import random
-from pathlib import Path
+from collections import defaultdict
+from plot import check_layout
 
-# Define genre → x and decade → y mappings
-GENRE_X = {
-    'cosmic disco': 100, 'electronic': 200, 'drum & bass': 300,
-    'techno': 400, 'house': 500, 'ambient': 600, 'jazz': 700,
-}
-DECADE_Y = {
-    '1990s': 100, '2000s': 200, '2010s': 300, '2020s': 400,
-}
+TILE_SIZE = 100
+INNER_GAP = 20
+ISLAND_GAP = 120  # distance between islands
+CENTER_X, CENTER_Y = 0, 0  # canvas center to start from
 
+TILES_PER_RING = 8  # approximate tiles around each new island ring
+
+
+# CLEAN
 def clean_genre(genre):
     if not genre:
         return "unknown"
     return genre.lower().split(',')[0].split(';')[0].strip()
 
+# GENERATE NEW DATA
 def estimate_decade(date_str):
     if not date_str or not any(c.isdigit() for c in date_str):
         return "unknown"
@@ -30,49 +33,399 @@ def generate_id(track):
     base = (track.get("path") or "") + (track.get("title") or "")
     return hashlib.md5(base.encode("utf-8")).hexdigest()
 
-def prepare_metadata(input_path: Path, output_path: Path):
-    with input_path.open("r", encoding="utf-8") as f:
+def get_genre_colour(genre, genre_groups):
+    # Assign a unique primary colour to each genre, cycling if needed
+    primary_colours = [
+        "#e6194b", "#3cb44b", "#ffe119", "#4363d8", "#f58231",
+        "#911eb4", "#46f0f0", "#f032e6", "#bcf60c", "#fabebe",
+        "#008080", "#e6beff", "#9a6324", "#fffac8", "#800000",
+        "#aaffc3", "#808000", "#ffd8b1", "#000075", "#808080"
+    ]
+    genre_list = sorted(genre_groups.keys())
+    colour_map = {g: primary_colours[i % len(primary_colours)] for i, g in enumerate(genre_list)}
+    return colour_map.get(genre, "#cccccc")
+
+def get_genre_groups(tracks: list) -> defaultdict:
+    """
+    Groups a list of track dictionaries by their cleaned and normalized genre names.
+
+    Args:
+        tracks (list of dict): A list of track dictionaries, each containing at least a "genre" key.
+
+    Returns:
+        defaultdict: A dictionary where keys are cleaned genre names and values are lists of tracks belonging to each genre.
+
+    Note:
+        This function relies on an external `clean_genre` function to process genre names.
+    """
+
+    genre_groups = defaultdict(list)
+    for track in tracks:
+        genre = clean_genre(track.get("genre"))
+        genre_groups[genre].append(track)
+    return genre_groups
+
+
+
+
+# LAYOUT
+def layout_circular_island(tracks, origin_x, origin_y, scale=1):
+    layout = []
+    radius = 0
+    angle = 0
+    angle_increment = math.pi / scale  # adjust to tighten spacing
+
+    for i, track in enumerate(tracks):
+        if i == 0:
+            layout.append((origin_x, origin_y))
+            continue
+
+        radius = TILE_SIZE + INNER_GAP + (i // 6) * (TILE_SIZE + INNER_GAP)
+        x = origin_x + radius * math.cos(angle)
+        y = origin_y + radius * math.sin(angle)
+        layout.append((x, y))
+        angle += angle_increment
+
+    return layout
+
+def generate_island_positions(n):
+    """Generate island center points radiating outward from canvas center."""
+    positions = [(CENTER_X, CENTER_Y)]
+    radius = ISLAND_GAP * 2
+    while len(positions) < n:
+        count = len(positions)
+        ring_size = int(2 * math.pi * radius / ISLAND_GAP)
+        for i in range(ring_size):
+            angle = (2 * math.pi / ring_size) * i
+            x = CENTER_X + radius * math.cos(angle)
+            y = CENTER_Y + radius * math.sin(angle)
+            positions.append((x, y))
+            if len(positions) >= n:
+                break
+        radius += ISLAND_GAP * 1.5
+    return positions[:n]
+
+def island_radius(n: int, tile_sz: float = 100.0, gap: float = 10.0) -> float:
+    """
+    Returns the radius (pixels) needed to fit `n` square tiles
+    on a compact hex-style grid.
+      * `tile_sz` – tile width/height in px
+      * `gap`     – clear space between tile edges in px
+    """
+    if n < 1:
+        raise ValueError("Number of tiles must be ≥ 1")
+    if n == 1:
+        return tile_sz / 2 # just the single tile
+
+    # How many hexagonal rings are required?
+    # Perfect hex with R rings holds 1 + 3R(R+1) tiles.
+    R = math.ceil((math.sqrt(12 * n - 3) - 3) / 6)
+
+    pitch = tile_sz + gap # centre-to-centre spacing
+    return pitch * R * math.sqrt(3) + tile_sz / 2
+
+import math
+from typing import List, Tuple
+
+def _hex_rings_needed(n: int) -> int:
+    """
+    Helper for island_tile_positions():
+    Rings required to hold n tiles  ⇒  R
+    Perfect hex with R rings: N = 1 + 3 R (R+1)
+    """
+    if n <= 1:
+        return 0
+    return math.ceil((math.sqrt(12 * n - 3) - 3) / 6)
+
+_ROOT3 = math.sqrt(3)
+def _axial_to_cart(q: int, r: int, pitch: float) -> Tuple[float, float]:
+    """
+    Helper for island_tile_positions():
+    Axial (q, r) → Cartesian (x, y)
+    """
+    x = pitch * (1.5 * q)
+    y = pitch * (_ROOT3 / 2 * q + _ROOT3 * r)
+    return x, y
+
+
+def island_tile_positions(n: int,
+                     centre: Tuple[float, float] = (0.0, 0.0),
+                     tile_sz: float = 100.0,
+                     gap: float = 10.0) -> List[Tuple[float, float]]:
+    """
+    Return a list of (x, y) centres for `n` square tiles arranged
+    compactly around `centre` on a hex/brick grid.
+
+    Args
+    ----
+    n        : number of tiles (≥1)
+    centre   : (cx, cy) of the island’s centre
+    tile_sz  : tile width/height in pixels
+    gap      : clearance between tile edges in pixels
+
+    Example
+    -------
+    >>> coords = island_positions(7, centre=(400, 300))
+    """
+    if n < 1:
+        raise ValueError("Number of tiles must be ≥ 1")
+
+    cx, cy   = centre
+    pitch    = tile_sz + gap          # centre-to-centre spacing
+    rings    = _hex_rings_needed(n)   # how many layers we’ll need
+    coords   = [(cx, cy)]             # tile 0 at the exact centre
+
+    if n == 1:
+        return coords
+
+    # Directions around a hex in axial coordinates
+    DIRECTIONS = [(1, 0), (1, -1), (0, -1),
+                  (-1, 0), (-1, 1), (0, 1)]
+
+    tiles_placed = 1
+    # Walk rings 1 … R
+    for r in range(1, rings + 1):
+        q, s = -r, r                  # start at “west” corner (-r, +r)
+        for dir_q, dir_s in DIRECTIONS:
+            steps = r                 # how many tiles along this edge
+            for _ in range(steps):
+                if tiles_placed >= n:
+                    return coords
+                # axial → cartesian → shift to island centre
+                dx, dy = _axial_to_cart(q, s, pitch)
+                coords.append((cx + dx, cy + dy))
+                tiles_placed += 1
+                q += dir_q
+                s += dir_s
+
+    return coords
+
+
+# PSUEDO CODE OUTLINE
+# def island_centres(radii: List[int], centre: Tuple[float, float] = (0.0, 0.0), island_gap: float = 10 ) -> List[Tuple[float, float]]:
+#     """
+#     Returns a list of (x, y) coordinates for the centres of each island
+#     Islands are treated as circles with a given radius, and are spaced apart by `island_gap`. 
+#     First island is at the centre, subsequent islands are packed around it, minimising the overall size by keeping each island as close to the centre as possible.
+#     """
+#     centres = []
+#     # place first island at the centre
+
+#     # subsequent islands:
+#         # 
+#     return centres
+
+import math
+from typing import List, Tuple
+
+def _dist(p: Tuple[float, float], q: Tuple[float, float]) -> float:
+    """Helper for island_centres(): distance and circle–circle intersection"""
+    return math.hypot(p[0] - q[0], p[1] - q[1])
+
+def _circle_intersections(c0, r0, c1, r1) -> List[Tuple[float, float]]:
+    """
+    Return up to two intersection points of circles
+    (c0, r0) and (c1, r1).  Empty list if no intersection.
+    """
+    x0, y0 = c0
+    x1, y1 = c1
+    d = _dist(c0, c1)
+    if d == 0 or d > r0 + r1 or d < abs(r0 - r1):
+        return []
+
+    # Distance from c0 to the line between the two intersections
+    a = (r0**2 - r1**2 + d**2) / (2 * d)
+    h_sq = r0**2 - a**2
+    if h_sq < 0:                       # numeric noise
+        return []
+    h = math.sqrt(h_sq)
+
+    # Base point P2 along the line c0→c1
+    x2 = x0 + a * (x1 - x0) / d
+    y2 = y0 + a * (y1 - y0) / d
+
+    # Offset vector perpendicular to c0→c1
+    rx = -(y1 - y0) * (h / d)
+    ry =  (x1 - x0) * (h / d)
+
+    return [(x2 + rx, y2 + ry), (x2 - rx, y2 - ry)]
+
+
+def island_centres(
+    radii: List[float],
+    centre: Tuple[float, float] = (0.0, 0.0),
+    island_gap: float = 10.0
+) -> List[Tuple[float, float]]:
+    """
+    Compute (x, y) centres for islands treated as non-overlapping circles.
+
+    Parameters
+    ----------
+    radii       : list of island radii (edge of tiles → centre distance)
+    centre      : fixed position of the first island (usually canvas centre)
+    island_gap  : minimum clearance *between edges* of any two islands
+
+    Returns
+    -------
+    centres : list[(x, y)] corresponding to the input order in *radii*
+    """
+    if not radii:
+        return []
+
+    # First island is anchored at the given centre
+    centres: List[Tuple[float, float]] = [centre]
+
+    for i in range(1, len(radii)):
+        r_new = radii[i]
+        best_pos = None
+        best_dist = float("inf")
+
+        # Convenience: augmented radii include mandatory gap
+        aug = [r + r_new + island_gap for r in radii[:i]]
+
+        # Candidates tangential to *one* existing island
+        for (cx, cy), aug_r in zip(centres, aug):
+            # Project along line centre→(cx, cy) inward toward the hub
+            vx, vy = centre[0] - cx, centre[1] - cy
+            v_len = math.hypot(vx, vy)
+            if v_len == 0:
+                # Existing island *is* the hub; skip – circle touch will
+                # be handled by two-circle candidates anyway
+                continue
+            scale = aug_r / v_len
+            cand = (cx + vx * scale, cy + vy * scale)
+
+            if _valid(cand, r_new, centres, radii[:i], island_gap):
+                d = _dist(cand, centre)
+                if d < best_dist:
+                    best_dist, best_pos = d, cand
+
+        # Candidates tangential to *two* existing islands
+        n_prev = len(centres)
+        for j in range(n_prev):
+            for k in range(j + 1, n_prev):
+                cA, cB = centres[j], centres[k]
+                rA, rB = aug[j], aug[k]
+
+                for cand in _circle_intersections(cA, rA, cB, rB):
+                    if _valid(cand, r_new, centres, radii[:i], island_gap):
+                        d = _dist(cand, centre)
+                        if d < best_dist:
+                            best_dist, best_pos = d, cand
+                            
+        # Fallback — should rarely happen
+        if best_pos is None:
+            # Place on a ray to the right, just outside outermost ring
+            max_r = max(_dist(c, centre) + radii[j]
+                        for j, c in enumerate(centres))
+            best_pos = (centre[0] + max_r + r_new + island_gap, centre[1])
+
+        centres.append(best_pos)
+
+    return centres
+
+def _valid(cand, r_new, centres, radii_so_far, gap) -> bool:
+    """
+    Helper for island_centres(): overlap / clearance test
+    True if `cand` is clear of all existing islands by at least `gap`.
+    """
+    for (px, py), r_old in zip(centres, radii_so_far):
+        if _dist(cand, (px, py)) < r_new + r_old + gap - 1e-6:
+            return False
+    return True
+
+class Island:
+    def __init__(
+        self,
+        radius: float,
+        tile_positions: list,
+        centre: tuple,
+        colour: str,
+        tracks: list,
+        genre: str, 
+    ):
+        self.radius = radius
+        self.tile_positions = tile_positions  # List of (x, y) for each tile
+        self.centre = centre                  # (x, y) of island centre
+        self.colour = colour                  # Colour string (e.g. "#e6194b")
+        self.tracks = tracks                  # List of track dicts
+        self.genre = genre                  # List of track dicts
+
+    def __repr__(self):
+        return (
+            f"Island(radius={self.radius}, centre={self.centre}, "
+            f"tiles={len(self.tile_positions)}, colour={self.colour}, "
+            f"genre={self.genre}, "
+            f"tracks={len(self.tracks)})"
+        )
+
+def build_islands_db(genre_groups: defaultdict) -> List[Island]:
+    """
+    Build a list of Island objects from genre groups.
+    
+    Args:
+        genre_groups (defaultdict): Dictionary where keys are genres and values are lists of tracks.
+    
+    Returns:
+        List[Island]: List of Island objects with their properties set.
+    """
+    islands = []
+    radii = [island_radius(len(tracks)) for tracks in genre_groups.values()]
+    centres = island_centres(radii, centre=(CENTER_X, CENTER_Y), island_gap=ISLAND_GAP)
+    tile_positions = [island_tile_positions(len(tracks), centre, TILE_SIZE, INNER_GAP) for tracks, centre in zip(genre_groups.values(), centres)]
+    
+    assert len(radii) == len(centres) == len(tile_positions) == len(genre_groups), "Mismatch in number of radii, centres, and tile positions"
+
+    for (genre, tracks), (radius, centre, positions) in zip(genre_groups.items(), zip(radii, centres, tile_positions)):
+        colour = get_genre_colour(genre, genre_groups)
+        island = Island(radius, positions, centre, colour, tracks, genre)
+        islands.append(island)
+    
+    return islands
+
+# MAIN FUNCTION
+def main(input_json: Path, output_json: Path):
+    with input_json.open("r", encoding="utf-8") as f:
         raw_tracks = json.load(f)
 
+    genre_groups = get_genre_groups(raw_tracks)
+
+    islands_db = build_islands_db(genre_groups)
+
     prepared_tracks = []
-    for track in raw_tracks:
-        genre = clean_genre(track.get("genre"))
-        decade = estimate_decade(track.get("date"))
 
-        x = GENRE_X.get(genre, random.randint(0, 1000)) + random.randint(-20, 20)
-        y = DECADE_Y.get(decade, random.randint(0, 1000)) + random.randint(-20, 20)
+    for island in islands_db:
+        for i, track in enumerate(island.tracks):
+            decade = estimate_decade(track.get("date"))
+            prepared = {
+                "id": generate_id(track),
+                "title": track.get("title", "Unknown Title"),
+                "artist": track.get("artist", "Unknown Artist"),
+                "album": track.get("album", ""),
+                "genre": island.genre,
+                "decade": decade,
+                "date": track.get("date"),
+                "tracknumber": track.get("tracknumber"),
+                "path": track.get("path"),
+                "x": round(island.tile_positions[i][0], 2),
+                "y": round(island.tile_positions[i][1], 2),
+                "colour": island.colour,
+                "preview_url": f"https://www.youtube.com/results?search_query={track.get('artist', '')}+{track.get('title', '')}".replace(" ", "+")
+            }
+            prepared_tracks.append(prepared)
 
-        prepared = {
-            "id": generate_id(track),
-            "title": track.get("title", "Unknown Title"),
-            "artist": track.get("artist", "Unknown Artist"),
-            "album": track.get("album", ""),
-            "genre": genre,
-            "decade": decade,
-            "date": track.get("date"),
-            "tracknumber": track.get("tracknumber"),
-            "path": track.get("path"),
-            "x": x,
-            "y": y,
-            # "search_text": " ".join([
-            #     track.get("title", ""),
-            #     track.get("artist", ""),
-            #     genre,
-            #     decade,
-            # ]).lower(),
-            "preview_url": f"https://www.youtube.com/results?search_query={track.get('artist', '')}+{track.get('title', '')}".replace(" ", "+")
-        }
-
-        prepared_tracks.append(prepared)
-
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8") as f:
+    output_json.parent.mkdir(parents=True, exist_ok=True)
+    with output_json.open("w", encoding="utf-8") as f:
         json.dump(prepared_tracks, f, indent=2, ensure_ascii=False)
 
 if __name__ == "__main__":
     base_dir = Path(__file__).resolve().parents[1]
     input_json = base_dir / "data" / "json" / "output.json"
-    output_json = base_dir / "data" / "json" / "prepared.json"
+    output_json = base_dir / "frontend" / "public" / "prepared.json"
 
-    prepare_metadata(input_json, output_json)
+    main(input_json, output_json)
     print(f"✅ Metadata prepared and saved to {output_json}")
+    check_layout()  # Optional: visualize the layout after preparation
+    print("✅ Layout checked.")
+    print("Done.")
+
