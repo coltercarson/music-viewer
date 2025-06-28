@@ -81,24 +81,6 @@ def get_genre_groups(tracks: list) -> defaultdict:
 
 
 # LAYOUT
-def layout_circular_island(tracks, origin_x, origin_y, scale=1):
-    layout = []
-    radius = 0
-    angle = 0
-    angle_increment = math.pi / scale  # adjust to tighten spacing
-
-    for i, track in enumerate(tracks):
-        if i == 0:
-            layout.append((origin_x, origin_y))
-            continue
-
-        radius = TILE_SIZE + INNER_GAP + (i // 6) * (TILE_SIZE + INNER_GAP)
-        x = origin_x + radius * math.cos(angle)
-        y = origin_y + radius * math.sin(angle)
-        layout.append((x, y))
-        angle += angle_increment
-
-    return layout
 
 def island_radius(n: int, tile_sz: float = 100.0, gap: float = 10.0) -> float:
     """
@@ -230,8 +212,8 @@ def _circle_intersections(c0, r0, c1, r1) -> List[Tuple[float, float]]:
 
 def island_centres(
     radii: List[float],
-    centre: Tuple[float, float] = (0.0, 0.0),
-    island_gap: float = 10.0
+    centre: Tuple[float, float] = (CENTRE_X, CENTRE_Y),
+    island_gap: float = ISLAND_GAP
 ) -> List[Tuple[float, float]]:
     """
     Compute (x, y) centres for islands treated as non-overlapping circles.
@@ -387,7 +369,8 @@ def main(input_json: Path, output_json: Path):
                 "x": round(island.tile_positions[i][0], 2),
                 "y": round(island.tile_positions[i][1], 2),
                 "colour": island.colour,
-                "preview_url": f"https://www.youtube.com/results?search_query={track.get('artist', '')}+{track.get('title', '')}".replace(" ", "+")
+                "preview_url": f"https://www.youtube.com/results?search_query={track.get('artist', '')}+{track.get('title', '')}".replace(" ", "+"),
+                "buy_url": f"https://bandcamp.com/search?q={track.get('artist', '')}+{track.get('title', '')}".replace(" ", "+"),
             }
             prepared_tracks.append(prepared)
 
