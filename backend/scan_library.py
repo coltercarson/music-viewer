@@ -62,11 +62,7 @@ def scan_music_folder(root_dir: Path):
             print(f"⚠️ Skipping {file_path.name} due to error: {e}")
     return music_data
 
-if __name__ == "__main__":
-    base_dir = Path(__file__).resolve().parents[1]
-    music_dir = base_dir / "data" / "music"
-    output_path = base_dir / "data" / "json" / "output.json"
-
+def scan_library(music_dir: Path, output_path: Path):
     print(f"🔍 Scanning music folder: {music_dir}")
     collection = scan_music_folder(music_dir)
 
@@ -74,4 +70,4 @@ if __name__ == "__main__":
     with output_path.open("w", encoding="utf-8") as f:
         json.dump(collection, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ Metadata extracted and saved to {output_path}")
+    print(f"Metadata extracted and saved to {output_path}")
