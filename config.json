@@ -1,6 +1,6 @@
 {
   "tileSize": 100,
-  "tileGap": 4,
+  "tileGap": 10,
   "islandGap": 20,
   "canvasSize": 2000,
   "centreX": 0,
