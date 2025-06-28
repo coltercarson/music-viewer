@@ -8,16 +8,23 @@ from collections import defaultdict
 import math
 from typing import List, Tuple
 
+import math
+from typing import List, Tuple
+import json
+
 from plot import check_layout
 
 # constants
-TILE_SIZE = 100
-INNER_GAP = 20
-ISLAND_GAP = 120  # distance between islands
-CENTER_X, CENTER_Y = 0, 0  # canvas center to start from
 
-TILES_PER_RING = 8  # approximate tiles around each new island ring
+config_path = Path(__file__).parent.parent / "config.json"
+with open(config_path, "r", encoding="utf-8") as f:
+    config = json.load(f)
 
+TILE_SIZE = config.get("tileSize")
+INNER_GAP = config.get("tileGap")
+ISLAND_GAP = config.get("islandGap")
+CENTRE_X = config.get("centreX")
+CENTRE_Y = config.get("centreY")
 
 # CLEAN
 def clean_genre(genre):
@@ -93,23 +100,6 @@ def layout_circular_island(tracks, origin_x, origin_y, scale=1):
 
     return layout
 
-def generate_island_positions(n):
-    """Generate island center points radiating outward from canvas center."""
-    positions = [(CENTER_X, CENTER_Y)]
-    radius = ISLAND_GAP * 2
-    while len(positions) < n:
-        count = len(positions)
-        ring_size = int(2 * math.pi * radius / ISLAND_GAP)
-        for i in range(ring_size):
-            angle = (2 * math.pi / ring_size) * i
-            x = CENTER_X + radius * math.cos(angle)
-            y = CENTER_Y + radius * math.sin(angle)
-            positions.append((x, y))
-            if len(positions) >= n:
-                break
-        radius += ISLAND_GAP * 1.5
-    return positions[:n]
-
 def island_radius(n: int, tile_sz: float = 100.0, gap: float = 10.0) -> float:
     """
     Returns the radius (pixels) needed to fit `n` square tiles
@@ -128,9 +118,6 @@ def island_radius(n: int, tile_sz: float = 100.0, gap: float = 10.0) -> float:
 
     pitch = tile_sz + gap # centre-to-centre spacing
     return pitch * R * math.sqrt(3) + tile_sz / 2
-
-import math
-from typing import List, Tuple
 
 def _hex_rings_needed(n: int) -> int:
     """
@@ -154,9 +141,9 @@ def _axial_to_cart(q: int, r: int, pitch: float) -> Tuple[float, float]:
 
 
 def island_tile_positions(n: int,
-                     centre: Tuple[float, float] = (0.0, 0.0),
-                     tile_sz: float = 100.0,
-                     gap: float = 10.0) -> List[Tuple[float, float]]:
+                     centre: Tuple[float, float] = (CENTRE_X, CENTRE_Y),
+                     tile_sz: float = TILE_SIZE,
+                     gap: float = INNER_GAP) -> List[Tuple[float, float]]:
     """
     Return a list of (x, y) centres for `n` square tiles arranged
     compactly around `centre` on a hex/brick grid.
@@ -361,7 +348,7 @@ def build_islands_db(genre_groups: defaultdict) -> List[Island]:
     """
     islands = []
     radii = [island_radius(len(tracks)) for tracks in genre_groups.values()]
-    centres = island_centres(radii, centre=(CENTER_X, CENTER_Y), island_gap=ISLAND_GAP)
+    centres = island_centres(radii, centre=(CENTRE_X, CENTRE_Y), island_gap=ISLAND_GAP)
     tile_positions = [island_tile_positions(len(tracks), centre, TILE_SIZE, INNER_GAP) for tracks, centre in zip(genre_groups.values(), centres)]
     
     assert len(radii) == len(centres) == len(tile_positions) == len(genre_groups), "Mismatch in number of radii, centres, and tile positions"
@@ -415,7 +402,7 @@ if __name__ == "__main__":
 
     main(input_json, output_json)
     print(f"✅ Metadata prepared and saved to {output_json}")
-    check_layout()  # Optional: visualize the layout after preparation
-    print("✅ Layout checked.")
-    print("Done.")
+    # check_layout()  # Optional: visualize the layout after preparation
+    # print("✅ Layout checked.")
+    # print("Done.")
 
