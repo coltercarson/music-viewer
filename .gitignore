@@ -1,4 +1,5 @@
 data/music
 gpt-repo
+frontend/node_modules
 
 *.json
