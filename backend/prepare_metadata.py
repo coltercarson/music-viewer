@@ -4,12 +4,8 @@ from pathlib import Path
 import json
 import hashlib
 from collections import defaultdict
-
 import math
-from typing import List, Tuple
-
-import math
-from typing import List, Tuple
+from typing import List, Tuple, Literal
 import json
 
 from plot import check_layout
@@ -112,13 +108,39 @@ def _hex_rings_needed(n: int) -> int:
     return math.ceil((math.sqrt(12 * n - 3) - 3) / 6)
 
 _ROOT3 = math.sqrt(3)
-def _axial_to_cart(q: int, r: int, pitch: float) -> Tuple[float, float]:
+def _axial_to_cart(
+    q: int,
+    r: int,
+    pitch: float,
+    orientation: Literal["pointy", "flat"] = "pointy"
+) -> Tuple[float, float]:
     """
-    Helper for island_tile_positions():
-    Axial (q, r) → Cartesian (x, y)
+    Convert axial hex-grid coordinates (q, r) → Cartesian (x, y).
+
+    Parameters
+    ----------
+    q, r        : axial coordinates
+    pitch       : centre-to-centre distance between adjacent hexes
+                  (use tile_size + gap for your square “tiles”)
+    orientation : "pointy" | "flat"
+                  • "pointy"  → hexes have a vertex at the top (default)
+                  • "flat"    → hexes have a flat edge at the top
+
+    Returns
+    -------
+    (x, y) tuple giving canvas coordinates for the hex (or square tile).
     """
-    x = pitch * (1.5 * q)
-    y = pitch * (_ROOT3 / 2 * q + _ROOT3 * r)
+    if orientation == "pointy":
+        # classic axial layout with vertical columns
+        x = pitch * (1.5 * q)
+        y = pitch * (_ROOT3 / 2 * q + _ROOT3 * r)
+    elif orientation == "flat":
+        # 90°-rotated layout with horizontal rows
+        x = pitch * (_ROOT3 * q + _ROOT3 / 2 * r)
+        y = pitch * (1.5 * r)
+    else:
+        raise ValueError("orientation must be 'pointy' or 'flat'")
+
     return x, y
 
 
@@ -346,6 +368,9 @@ def build_islands_db(genre_groups: defaultdict) -> List[Island]:
 def main(input_json: Path, output_json: Path):
     with input_json.open("r", encoding="utf-8") as f:
         raw_tracks = json.load(f)
+
+    # Filter out tracks with no genre
+    # raw_tracks = [track for track in raw_tracks if track.get("genre") is not None]
 
     genre_groups = get_genre_groups(raw_tracks)
 
