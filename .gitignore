@@ -2,4 +2,6 @@ data/music
 gpt-repo
 frontend/node_modules
 
+__pycache__/
+
 *.json
