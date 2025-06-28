@@ -36,3 +36,36 @@ def check_layout():
         yaxis=dict(scaleanchor="x", scaleratio=1)
     )
     fig.show()
+
+def plot_island_circles(radii, centres):
+    import plotly.graph_objects as go
+
+    fig = go.Figure()
+
+    for r, c in zip(radii, centres):
+        x0, y0 = c[0] - r, c[1] - r
+        x1, y1 = c[0] + r, c[1] + r
+        fig.add_shape(
+            type="circle",
+            x0=x0, y0=y0,
+            x1=x1, y1=y1,
+            line=dict(color='blue'),
+            fillcolor='rgba(0,0,255,0.2)'
+        )
+
+    # Optionally, adjust limits to fit all circles
+    if centres and radii:
+        xs = [c[0] for c in centres]
+        ys = [c[1] for c in centres]
+        min_x = min(x - r for x, r in zip(xs, radii))
+        max_x = max(x + r for x, r in zip(xs, radii))
+        min_y = min(y - r for y, r in zip(ys, radii))
+        max_y = max(y + r for y, r in zip(ys, radii))
+        fig.update_xaxes(range=[min_x - 10, max_x + 10])
+        fig.update_yaxes(range=[min_y - 10, max_y + 10])
+
+    fig.update_layout(
+        title='Island Circles',
+        yaxis=dict(scaleanchor="x", scaleratio=1)
+    )
+    fig.show()
