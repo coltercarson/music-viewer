@@ -1,10 +1,16 @@
+# imports
 import math
 from pathlib import Path
 import json
 import hashlib
 from collections import defaultdict
+
+import math
+from typing import List, Tuple
+
 from plot import check_layout
 
+# constants
 TILE_SIZE = 100
 INNER_GAP = 20
 ISLAND_GAP = 120  # distance between islands
@@ -17,7 +23,7 @@ TILES_PER_RING = 8  # approximate tiles around each new island ring
 def clean_genre(genre):
     if not genre:
         return "unknown"
-    return genre.lower().split(',')[0].split(';')[0].strip()
+    return [g.strip() for g in genre.split(",") if g.strip()]
 
 # GENERATE NEW DATA
 def estimate_decade(date_str):
@@ -62,10 +68,9 @@ def get_genre_groups(tracks: list) -> defaultdict:
     genre_groups = defaultdict(list)
     for track in tracks:
         genre = clean_genre(track.get("genre"))
-        genre_groups[genre].append(track)
+        primary_genre = genre[0] if isinstance(genre, list) else genre
+        genre_groups[primary_genre].append(track)
     return genre_groups
-
-
 
 
 # LAYOUT
@@ -201,22 +206,7 @@ def island_tile_positions(n: int,
     return coords
 
 
-# PSUEDO CODE OUTLINE
-# def island_centres(radii: List[int], centre: Tuple[float, float] = (0.0, 0.0), island_gap: float = 10 ) -> List[Tuple[float, float]]:
-#     """
-#     Returns a list of (x, y) coordinates for the centres of each island
-#     Islands are treated as circles with a given radius, and are spaced apart by `island_gap`. 
-#     First island is at the centre, subsequent islands are packed around it, minimising the overall size by keeping each island as close to the centre as possible.
-#     """
-#     centres = []
-#     # place first island at the centre
 
-#     # subsequent islands:
-#         # 
-#     return centres
-
-import math
-from typing import List, Tuple
 
 def _dist(p: Tuple[float, float], q: Tuple[float, float]) -> float:
     """Helper for island_centres(): distance and circle–circle intersection"""
@@ -402,7 +392,7 @@ def main(input_json: Path, output_json: Path):
                 "title": track.get("title", "Unknown Title"),
                 "artist": track.get("artist", "Unknown Artist"),
                 "album": track.get("album", ""),
-                "genre": island.genre,
+                "genre": track.get("genre"),
                 "decade": decade,
                 "date": track.get("date"),
                 "tracknumber": track.get("tracknumber"),
