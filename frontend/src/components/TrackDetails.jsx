@@ -44,6 +44,16 @@ export default function TrackDetails({ track, onClose }) {
           "N/A"
         )}
       </p>
+      <p>
+        <strong>Buy link:</strong>{" "}
+        {track.buy_url ? (
+          <a href={track.buy_url} target="_blank" rel="noopener noreferrer">
+            {track.buy_url}
+          </a>
+        ) : (
+          "N/A"
+        )}
+      </p>
     </div>
   );
 }
