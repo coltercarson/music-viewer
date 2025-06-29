@@ -11,7 +11,7 @@ export default function App() {
   const [selectedTrack, setSelectedTrack] = useState(null);
 
   useEffect(() => {
-    fetch("/prepared.json")
+    fetch(import.meta.env.BASE_URL + "prepared.json")
       .then((res) => res.json())
       .then((data) => {
         console.log("Loaded tracks:", data);
