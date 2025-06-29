@@ -1,0 +1,50 @@
+# .github/workflows/deploy.yml
+name: Deploy OMC Frontend to GitHub Pages
+
+on:
+  push:
+    branches: [ develop ]     # build on every push to develop
+  workflow_dispatch:          # allow manual trigger
+
+permissions:
+  contents: read              # for actions/checkout
+  pages: write                # to deploy
+  id-token: write             # to authenticate the deployment
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🧰 Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22        # match the version you’re using locally
+          cache: npm
+
+      - name: 📦 Install dependencies
+        run: npm ci --prefix frontend
+
+      - name: 🏗️ Build frontend
+        run: npm run build --prefix frontend
+        # Vite outputs to frontend/dist by default
+
+      - name: 📤 Upload build artefact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist     # the static site folder to publish
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
