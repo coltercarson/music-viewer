@@ -37,8 +37,8 @@ from scan_library import scan_library
 #%%
 base_dir = Path(__file__).resolve().parents[1]
 
-music_dir = Path(r'f:\DJ MUSIC\DEEMIX')
-# music_dir = base_dir / "data" / "music"
+# music_dir = Path(r'f:\DJ MUSIC\DEEMIX')
+music_dir = base_dir / "data" / "music"
 output_path = base_dir / "data" / "json" / "output.json"
 scan_library(music_dir, output_path)
 

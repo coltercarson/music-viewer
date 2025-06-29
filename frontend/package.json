@@ -2,7 +2,6 @@
   "name": "omc-frontend",
   "version": "0.0.1",
   "scripts": {
-    "predev": "copy ..\\data\\json\\prepared.json public\\prepared.json",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
