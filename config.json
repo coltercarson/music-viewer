@@ -1,0 +1,12 @@
+{
+  "tileSize": 100,
+  "tileGap": 10,
+  "islandGap": 20,
+  "canvasSize": 2000,
+  "centreX": 0,
+  "centreY": 0,
+  "defaultGenreColors": {
+    "techno": "#d81b60",
+    "jazz": "#1e88e5"
+  }
+}
