@@ -31,10 +31,9 @@ install node.js at https://nodejs.org/en/download
     - Genre relations? Place similar genres closer together
     - Venn diagram style -- set 'genre centres' and then place track tile with equal proximity to each relevant centre? weighting based on primary, secondary, tertiary?? 
   - File list view with sorting/search/filtering (like rekordbox collection view) -- file structure tree view?? use List.js
-  - 
-    
+
 - General UI:
-  - Title Bar: display file library name, date created and some stats?
+  - Title Bar: display file library name, name of current view (e.g., all songs, grouped by primary genre into hex islands) date created and some stats?
   - Favicon? low priority
   - Mobile UI: pinch to zoom, click to select, improve panning?
 
