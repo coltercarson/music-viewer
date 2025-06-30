@@ -31,6 +31,7 @@ install node.js at https://nodejs.org/en/download
 - General UI:
   - Title Bar: display file library name, date created and some stats?
   - Favicon? low priority
+  - Mobile UI: pinch to zoom, click to select, improve panning?
 
 - Performance: test with a larger library (e.g., 2000 tracks?)
   - Is dynamic loading/chunking needed to avoid lags?
