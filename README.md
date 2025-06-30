@@ -3,8 +3,28 @@ Tools for displaying local music library on a webpage.
 
 Background/ideas: https://docs.google.com/document/d/1xcNdlIfbqIN5MVHyVnceiRLx-8G4bPj5zbAf5KZB12s/edit?usp=sharing
 
-# notes:
+# Notes:
 install node.js at https://nodejs.org/en/download
+
+# Planned features:
+- Track previews:
+  - On tile hover, show play button
+  - On play click, show YouTube player in hovering window in lower RH corner
+  - Get full youtube links (python backend --> get_yt_link(artist, title, length?)
+  - Generate playlists: After the selected track finishes, play a nearby track (generate playlists by proximity on canvas -- x,y coords)
+
+- Display modes:
+  - 2D canvas view:
+    - Hex islands: fix spacing (tiles closer together)
+    - Rectangular/square islands
+    - Search/filtering UI
+  - List view with sorting/search/filtering
+    
+- Title Bar: display file library name, date created and some stats?
+
+- Performance: test with a larger library (e.g., 2000 tracks?)
+  - Is dynamic loading/chunking needed to avoid lags?
+  - What is file size for prepared.json when library of this size is loaded?
 
 ## Frontend
 
