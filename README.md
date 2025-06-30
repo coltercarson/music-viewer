@@ -1,4 +1,4 @@
-# musicviewer
+# music-viewer
 Tools for displaying local music library on a webpage.
 
 Background/ideas: https://docs.google.com/document/d/1xcNdlIfbqIN5MVHyVnceiRLx-8G4bPj5zbAf5KZB12s/edit?usp=sharing
@@ -7,6 +7,12 @@ Background/ideas: https://docs.google.com/document/d/1xcNdlIfbqIN5MVHyVnceiRLx-8
 install node.js at https://nodejs.org/en/download
 
 # Planned features:
+- File scanning:
+  - Get track length
+ 
+- Handle rekordbox.yml files:
+  - Generate prepared.json from rekordbox library instead of file scan
+
 - Track previews:
   - On tile hover, show play button
   - On play click, show YouTube player in hovering window in lower RH corner
@@ -14,13 +20,17 @@ install node.js at https://nodejs.org/en/download
   - Generate playlists: After the selected track finishes, play a nearby track (generate playlists by proximity on canvas -- x,y coords)
 
 - Display modes:
+  - Navigation menu to switch views?
   - 2D canvas view:
     - Hex islands: fix spacing (tiles closer together)
     - Rectangular/square islands
     - Search/filtering UI
   - List view with sorting/search/filtering
+  - File structure tree view??
     
-- Title Bar: display file library name, date created and some stats?
+- General UI:
+-   Title Bar: display file library name, date created and some stats?
+-   Favicon? low priority
 
 - Performance: test with a larger library (e.g., 2000 tracks?)
   - Is dynamic loading/chunking needed to avoid lags?
