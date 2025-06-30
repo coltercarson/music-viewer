@@ -28,7 +28,10 @@ install node.js at https://nodejs.org/en/download
     - Hex islands: fix spacing (tiles closer together)
     - Rectangular/square islands
     - Search/filtering
+    - Genre relations? Place similar genres closer together
+    - Venn diagram style -- set 'genre centres' and then place track tile with equal proximity to each relevant centre? weighting based on primary, secondary, tertiary?? 
   - File list view with sorting/search/filtering (like rekordbox collection view) -- file structure tree view?? use List.js
+  - 
     
 - General UI:
   - Title Bar: display file library name, date created and some stats?
