@@ -1,5 +1,6 @@
 # musicviewer
 Tools for displaying local music library on a webpage.
+Background/ideas: https://docs.google.com/document/d/1xcNdlIfbqIN5MVHyVnceiRLx-8G4bPj5zbAf5KZB12s/edit?usp=sharing
 
 # notes:
 install node.js at https://nodejs.org/en/download
