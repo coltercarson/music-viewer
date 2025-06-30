@@ -12,6 +12,7 @@ install node.js at https://nodejs.org/en/download
  
 - Handle rekordbox.yml files:
   - Generate prepared.json from rekordbox library instead of file scan
+  - Get star ratings and other rekordbox specific metadata
 
 - Track previews:
   - On tile hover, show play button
@@ -37,6 +38,12 @@ install node.js at https://nodejs.org/en/download
 - Performance: test with a larger library (e.g., 2000 tracks?)
   - Is dynamic loading/chunking needed to avoid lags?
   - What is file size for prepared.json when library of this size is loaded?
+
+- At some point:
+  - Handle Discogs collection/wantlist export (.csv)
+  - Handle other music management software exports (serato, engine, itunes)
+  - Bandcamp collection/wantlist exports: https://github.com/dbeley/bandcamp-library-scraper
+  - Streaming libraries?? 
 
 ## Frontend
 
