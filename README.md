@@ -21,12 +21,13 @@ install node.js at https://nodejs.org/en/download
 
 - Display modes:
   - Navigation menu to switch views?
+  - Playlists: python backend -> read in .m3u (or similar) files and use these to create islands
   - 2D canvas view:
+    - Should placement calculations happen in frontend? probably, so that user can create views via the UI (e.g., use a filter to create a subset then select display setting like 2D canvas + hex) 
     - Hex islands: fix spacing (tiles closer together)
     - Rectangular/square islands
-    - Search/filtering UI
-  - List view with sorting/search/filtering
-  - File structure tree view??
+    - Search/filtering
+  - File list view with sorting/search/filtering (like rekordbox collection view) -- file structure tree view?? use List.js
     
 - General UI:
   - Title Bar: display file library name, date created and some stats?
