@@ -29,8 +29,8 @@ install node.js at https://nodejs.org/en/download
   - File structure tree view??
     
 - General UI:
--   Title Bar: display file library name, date created and some stats?
--   Favicon? low priority
+  - Title Bar: display file library name, date created and some stats?
+  - Favicon? low priority
 
 - Performance: test with a larger library (e.g., 2000 tracks?)
   - Is dynamic loading/chunking needed to avoid lags?
