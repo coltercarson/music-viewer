@@ -9,6 +9,7 @@ from tqdm import tqdm
 from youtubesearchpython import VideosSearch
 
 from plot import check_layout
+from youtube import get_youtube_url
 
 # constants
 

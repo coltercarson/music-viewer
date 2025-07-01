@@ -1,12 +1,43 @@
+import requests
 import json
-import yt_dlp
+import re
+import urllib.parse
 
-URL = 'https://www.youtube.com/watch?v=BaW_jenozKc'
+# TODO: optimise this -- a bit slow at the moment (~150 tracks takes about a minute)
+def get_youtube_url(track):
+    query = f"{track['artist']} {track['title']}"
+    search_url = f"https://www.youtube.com/results?search_query={urllib.parse.quote_plus(query)}"
 
-# ℹ️ See help(yt_dlp.YoutubeDL) for a list of available options and public functions
-ydl_opts = {}
-with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-    info = ydl.extract_info(URL, download=False)
+    headers = {
+        "User-Agent": "Mozilla/5.0"
+    }
 
-    # ℹ️ ydl.sanitize_info makes the info json-serializable
-    print(json.dumps(ydl.sanitize_info(info)))
+    response = requests.get(search_url, headers=headers)
+    if response.status_code != 200:
+        print("Failed to fetch search results.")
+        return None
+
+    # Extract ytInitialData from response text
+    match = re.search(r"var ytInitialData = ({.*?});</script>", response.text, re.DOTALL)
+    if not match:
+        print("Could not find ytInitialData in page.")
+        return None
+
+    data = json.loads(match.group(1))
+
+    try:
+        contents = data["contents"]["twoColumnSearchResultsRenderer"]["primaryContents"]\
+                    ["sectionListRenderer"]["contents"]
+
+        for section in contents:
+            items = section.get("itemSectionRenderer", {}).get("contents", [])
+            for item in items:
+                video = item.get("videoRenderer")
+                if video:
+                    video_id = video.get("videoId")
+                    return f"https://www.youtube.com/watch?v={video_id}"
+    except Exception as e:
+        print(f"Error parsing JSON: {e}")
+        return None
+
+    return None

@@ -19,4 +19,4 @@ def print_folder_structure(root_path='.', max_depth=5, _prefix='', exclude=None)
 
 if __name__ == "__main__":
     print("📁 Project Folder Structure:\n")
-    print_folder_structure('..')
+    print_folder_structure('../..')
