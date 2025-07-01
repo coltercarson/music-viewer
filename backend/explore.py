@@ -5,6 +5,7 @@ import json
 import hashlib
 from collections import defaultdict
 from plot import check_layout
+import os
 
 from prepare_metadata import *
 from plot import *
@@ -42,7 +43,13 @@ base_dir = Path(__file__).resolve().parents[1]
 # output_path = base_dir / "data" / "json" / "output.json"
 # scan_library(music_dir, output_path)
 
-input_json = base_dir / "data" / "json" / "output.json"
+scan_library(
+    rekordbox_xml_path=Path(r"F:/250701_T7.xml"),
+    playlist_name="5STAR_ALL",
+    output_path=Path(os.path.join(base_dir, "data/json/rekordbox_5star.json"))
+)
+
+input_json = base_dir / "data" / "json" / "rekordbox_5star.json"
 output_json = base_dir / "frontend" / "public" / "prepared.json"
 main(input_json, output_json)
 # check_layout()  # Optional: visualize the layout after preparation
