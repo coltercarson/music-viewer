@@ -14,14 +14,15 @@ install node.js at https://nodejs.org/en/download
   - Generate prepared.json from rekordbox library instead of file scan
   - Get star ratings and other rekordbox specific metadata
 
-- Track previews:
+- Youtube track previews:
   - On tile hover, show play button
   - On play click, show YouTube player in hovering window in lower RH corner
   - Get full youtube links (python backend --> get_yt_link(artist, title, length?)
   - Generate playlists: After the selected track finishes, play a nearby track (generate playlists by proximity on canvas -- x,y coords)
 
 - Display modes:
-  - Navigation menu to switch views?
+  - Navigation menu to switch views? Canvas or list
+  - Album art - on tiles or popup?
   - Playlists: python backend -> read in .m3u (or similar) files and use these to create islands
   - 2D canvas view:
     - Should placement calculations happen in frontend? probably, so that user can create views via the UI (e.g., use a filter to create a subset then select display setting like 2D canvas + hex) 
