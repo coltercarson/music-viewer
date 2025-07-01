@@ -62,12 +62,68 @@ def scan_music_folder(root_dir: Path):
             print(f"⚠️ Skipping {file_path.name} due to error: {e}")
     return music_data
 
-def scan_library(music_dir: Path, output_path: Path):
-    print(f"🔍 Scanning music folder: {music_dir}")
-    collection = scan_music_folder(music_dir)
+import xml.etree.ElementTree as ET
 
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with output_path.open("w", encoding="utf-8") as f:
-        json.dump(collection, f, indent=2, ensure_ascii=False)
+def parse_rekordbox_xml(xml_path: Path, playlist_filter: str = None):
+    """
+    Parses a Rekordbox XML file and returns a list of track metadata.
+    If `playlist_filter` is provided, only tracks from that playlist will be returned.
+    """
+    tree = ET.parse(xml_path)
+    root = tree.getroot()
 
-    print(f"Metadata extracted and saved to {output_path}")
+    # Build a lookup of TrackID -> track metadata
+    track_dict = {}
+    tracks = root.find("COLLECTION").findall("TRACK")
+    for track in tqdm(tracks, desc="🎼 Parsing Rekordbox tracks"):
+        track_id = track.attrib.get("TrackID")
+        if track_id:
+            track_dict[track_id] = {
+                "title": track.attrib.get("Name"),
+                "artist": track.attrib.get("Artist"),
+                "album": track.attrib.get("Album"),
+                "genre": track.attrib.get("Genre"),
+                "label": track.attrib.get("Label"),
+                "track_id": track_id,
+                "file_path": track.attrib.get("Location"),
+            }
+
+    if playlist_filter:
+        def find_playlist_tracks(node):
+            for child in node.findall("NODE"):
+                if child.attrib.get("Name") == playlist_filter:
+                    return [track.attrib["Key"] for track in child.findall("TRACK")]
+                result = find_playlist_tracks(child)
+                if result:
+                    return result
+            return []
+
+        playlist_node = root.find("PLAYLISTS")
+        track_ids = find_playlist_tracks(playlist_node)
+        return [track_dict[tid] for tid in track_ids if tid in track_dict]
+
+    else:
+        return list(track_dict.values())
+
+def scan_library(
+    music_dir: Path = None,
+    output_path: Path = None,
+    rekordbox_xml_path: Path = None,
+    playlist_name: str = None
+):
+    if rekordbox_xml_path:
+        print(f"🎧 Importing from Rekordbox XML: {rekordbox_xml_path}")
+        collection = parse_rekordbox_xml(rekordbox_xml_path, playlist_name)
+    elif music_dir:
+        print(f"🔍 Scanning music folder: {music_dir}")
+        collection = scan_music_folder(music_dir)
+    else:
+        raise ValueError("You must specify either a music directory or a Rekordbox XML file.")
+
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with output_path.open("w", encoding="utf-8") as f:
+            json.dump(collection, f, indent=2, ensure_ascii=False)
+        print(f"📁 Metadata extracted and saved to {output_path}")
+    else:
+        print("✅ Collection loaded, but no output path provided.")

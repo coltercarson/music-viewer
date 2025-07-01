@@ -408,6 +408,8 @@ def main(input_json: Path, output_json: Path):
     output_json.parent.mkdir(parents=True, exist_ok=True)
     with output_json.open("w", encoding="utf-8") as f:
         json.dump(prepared_tracks, f, indent=2, ensure_ascii=False)
+    
+    print(f"Prepared {len(prepared_tracks)} tracks across {len(islands_db)} islands.")
 
 if __name__ == "__main__":
     base_dir = Path(__file__).resolve().parents[1]
