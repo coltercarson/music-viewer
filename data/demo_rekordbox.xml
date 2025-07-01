@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DJ_PLAYLISTS Version="1.0.0">
+  <PRODUCT Name="rekordbox" Version="6.8.5" Company="AlphaTheta"/>
+  <COLLECTION Entries="25">
+    <TRACK TrackID="16684196" Name="Silence Of Water (Original Mix)" Artist="Emojonal"
+           Composer="" Album="Narcosis - A Journey Through The Outs And Ins Of Underground"
+           Grouping="" Genre="Progressive House, Goa Trance" Kind="AIFF File"
+           Size="62498124" TotalTime="353" DiscNumber="0" TrackNumber="1"
+           Year="1993" AverageBpm="131.99" DateAdded="2025-07-01" BitRate="1411"
+           SampleRate="44100" Comments="" PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Emojonal%20-%20Silence%20Of%20Water%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Dm" Label="Guerilla Recordings" Mix="">
+      <TEMPO Inizio="0.296" Bpm="131.99" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="76709359" Name="Enkuan Pt. 1 (Original Mix)" Artist="Kalbata"
+           Composer="" Album="Enkuan" Grouping="" Genre="Tribal House" Kind="AIFF File"
+           Size="66768372" TotalTime="378" DiscNumber="0" TrackNumber="1"
+           Year="2017" AverageBpm="118.00" DateAdded="2025-07-01" BitRate="1411"
+           SampleRate="44100" Comments=" /* House */" PlayCount="0" Rating="0"
+           Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Kalbata%20-%20Enkuan%20Pt.%201%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Dbm" Label="Optimo Trax" Mix="">
+      <TEMPO Inizio="0.020" Bpm="118.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="20.868" Bpm="118.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="61.038" Bpm="118.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="91.547" Bpm="118.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="131.717" Bpm="118.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="162.226" Bpm="118.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="202.396" Bpm="118.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="232.905" Bpm="118.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="273.075" Bpm="118.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="303.584" Bpm="118.00" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="343.754" Bpm="118.00" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="374.263" Bpm="118.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="160187906" Name="The Loop (Original Mix)" Artist="Kid Sublime"
+           Composer="" Album="Back In The Ballroom, Vol. 1" Grouping=""
+           Genre="Tech House" Kind="AIFF File" Size="81891872" TotalTime="463"
+           DiscNumber="0" TrackNumber="4" Year="2014" AverageBpm="124.60"
+           DateAdded="2025-07-01" BitRate="1411" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Kid%20Sublime%20-%20The%20Loop%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Gm" Label="Dopeness Galore" Mix="">
+      <TEMPO Inizio="0.174" Bpm="124.60" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="86186288" Name="Release The Dub (Original Mix)" Artist="Leftfield"
+           Composer="" Album="Survival - The Dance Compilation" Grouping=""
+           Genre="Progressive House, Dub" Kind="AIFF File" Size="60822058"
+           TotalTime="344" DiscNumber="0" TrackNumber="7" Year="1993" AverageBpm="119.88"
+           DateAdded="2025-07-01" BitRate="1411" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Leftfield%20-%20Release%20The%20Dub%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Ab" Label="Guerilla Recordings" Mix="">
+      <TEMPO Inizio="0.217" Bpm="119.88" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="100644319" Name="Motor (Original Mix)" Artist="MFO"
+           Composer="" Album="Future City Traffic - Part 2" Grouping=""
+           Genre="Deep House, Detroit House, Bleep" Kind="AIFF File" Size="71871184"
+           TotalTime="406" DiscNumber="0" TrackNumber="1" Year="2014" AverageBpm="124.00"
+           DateAdded="2025-07-01" BitRate="1411" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/MFO%20-%20Motor%20(Original%20Mix).aiff"
+           Remixer="" Tonality="B" Label="Dekmantel" Mix="">
+      <TEMPO Inizio="0.248" Bpm="124.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="239649368" Name="Raw Cuts (Marcellus Pittman Remix)"
+           Artist="Motor City Drum Ensemble" Composer="" Album="Mcde Recordings Best of (2008-2018)"
+           Grouping="" Genre="Deep House" Kind="AIFF File" Size="81560522"
+           TotalTime="458" DiscNumber="0" TrackNumber="10" Year="2018" AverageBpm="119.99"
+           DateAdded="2025-07-01" BitRate="1411" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Motor%20City%20Drum%20Ensemble%20-%20Raw%20Cuts%20(Marcellus%20Pittman%20Remix).aiff"
+           Remixer="" Tonality="F" Label="MCDE Recordings" Mix="">
+      <TEMPO Inizio="0.033" Bpm="119.99" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="0.534" Bpm="119.99" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="40.038" Bpm="119.99" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="80.042" Bpm="119.99" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="120.046" Bpm="119.99" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="149.549" Bpm="119.99" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="189.553" Bpm="119.99" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="229.557" Bpm="119.99" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="259.060" Bpm="119.99" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="299.064" Bpm="119.99" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="338.568" Bpm="119.99" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="378.572" Bpm="119.99" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="418.576" Bpm="119.99" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="448.079" Bpm="119.99" Metro="4/4" Battito="4"/>
+    </TRACK>
+    <TRACK TrackID="87710127" Name="All In Time... (Original Mix)" Artist="Mr. G"
+           Composer="" Album="A Good Place...?" Grouping="" Genre="Detroit Techno, Electro, Tool"
+           Kind="AIFF File" Size="45618610" TotalTime="257" DiscNumber="0"
+           TrackNumber="6" Year="2016" AverageBpm="124.38" DateAdded="2025-07-01"
+           BitRate="1411" SampleRate="44100" Comments=" /* 8 -  */" PlayCount="0"
+           Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Mr.%20G%20-%20All%20In%20Time...%20(Original%20Mix).aiff"
+           Remixer="" Tonality="F#m" Label="Phoenix G" Mix="">
+      <TEMPO Inizio="0.405" Bpm="124.38" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="0.888" Bpm="124.38" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="25.489" Bpm="124.38" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="58.773" Bpm="124.38" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="89.645" Bpm="124.38" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="122.929" Bpm="124.38" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="153.801" Bpm="124.38" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="187.085" Bpm="124.38" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="217.957" Bpm="124.38" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="251.241" Bpm="124.38" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="222328904" Name="G&apos;s Jazz (Original Mix)" Artist="Mr. G"
+           Composer="" Album="A Good Place...?" Grouping="" Genre="Detroit Techno, Electro, Tool"
+           Kind="AIFF File" Size="34804880" TotalTime="196" DiscNumber="0"
+           TrackNumber="9" Year="2016" AverageBpm="120.29" DateAdded="2025-07-01"
+           BitRate="1411" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Mr.%20G%20-%20G%27s%20Jazz%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Dm" Label="Phoenix G" Mix="">
+      <TEMPO Inizio="0.062" Bpm="120.29" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="110914877" Name="Hustle (Original Mix)" Artist="Mr. G, G Flame"
+           Composer="" Album="Tenacity EP" Grouping="" Genre="Techno (Peak Time / Driving)"
+           Kind="AIFF File" Size="69108813" TotalTime="391" DiscNumber="0"
+           TrackNumber="1" Year="1999" AverageBpm="126.00" DateAdded="2025-07-01"
+           BitRate="1411" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Mr.%20G,%20G%20Flame%20-%20Hustle%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Fm" Label="Phoenix G" Mix="">
+      <TEMPO Inizio="0.267" Bpm="126.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="0.744" Bpm="126.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="36.935" Bpm="126.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="73.126" Bpm="126.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="109.317" Bpm="126.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="145.508" Bpm="126.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="181.699" Bpm="126.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="217.890" Bpm="126.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="254.081" Bpm="126.00" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="280.272" Bpm="126.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="316.463" Bpm="126.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="352.654" Bpm="126.00" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="388.845" Bpm="126.00" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="95441406" Name="Workinstrugglin (Soulphiction Remix)"
+           Artist="Murat Tepeli" Composer="" Album="Workinstrugglin" Grouping=""
+           Genre="Deep House" Kind="AIFF File" Size="68157852" TotalTime="385"
+           DiscNumber="0" TrackNumber="2" Year="2013" AverageBpm="117.50"
+           DateAdded="2025-07-01" BitRate="1411" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Murat%20Tepeli%20-%20Workinstrugglin%20(Soulphiction%20Remix).aiff"
+           Remixer="" Tonality="Am" Label="Philpot Records" Mix="">
+      <TEMPO Inizio="0.107" Bpm="117.50" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="54548846" Name="I.J.O. (Synergy Mix)" Artist="Needle, The Sound Of Calypso"
+           Composer="" Album="I.J.O." Grouping="" Genre="Tech House" Kind="AIFF File"
+           Size="71702262" TotalTime="404" DiscNumber="0" TrackNumber="2"
+           Year="2023" AverageBpm="124.99" DateAdded="2025-07-01" BitRate="1411"
+           SampleRate="44100" Comments="" PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Needle,%20The%20Sound%20Of%20Calypso%20-%20I.J.O.%20(Synergy%20Mix).aiff"
+           Remixer="" Tonality="Abm" Label="Irma Dancefloor" Mix="">
+      <TEMPO Inizio="0.468" Bpm="124.99" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="213.124" Bpm="124.99" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="59007750" Name="Taking Me Higher (Original Mix)" Artist="Paz"
+           Composer="" Album="Taking Me Higher" Grouping="" Genre="House"
+           Kind="AIFF File" Size="79917453" TotalTime="452" DiscNumber="0"
+           TrackNumber="1" Year="2012" AverageBpm="128.00" DateAdded="2025-07-01"
+           BitRate="1411" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Paz%20-%20Taking%20Me%20Higher%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Bm" Label="Caboose Records" Mix="">
+      <TEMPO Inizio="0.038" Bpm="128.00" Metro="4/4" Battito="4"/>
+    </TRACK>
+    <TRACK TrackID="232701183" Name="La Habanera (Original Mix)" Artist="Pedro Comacio"
+           Composer="" Album="La Habanera" Grouping="" Genre="House" Kind="AIFF File"
+           Size="74661693" TotalTime="423" DiscNumber="0" TrackNumber="1"
+           Year="2003" AverageBpm="127.70" DateAdded="2025-07-01" BitRate="1411"
+           SampleRate="44100" Comments="" PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Pedro%20Comacio%20-%20La%20Habanera%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Bm" Label="Clubbin" Mix="">
+      <TEMPO Inizio="0.378" Bpm="127.70" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="168470375" Name="Promo Only (Original Mix)" Artist="Pete Herbert"
+           Composer="" Album="Promo Only" Grouping="" Genre="House" Kind="AIFF File"
+           Size="68679404" TotalTime="388" DiscNumber="0" TrackNumber="3"
+           Year="2016" AverageBpm="122.00" DateAdded="2025-07-01" BitRate="1411"
+           SampleRate="44100" Comments=" /* Boogie / House / Synth-Pop */"
+           PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Pete%20Herbert%20-%20Promo%20Only%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Ab" Label="Jolly Jams" Mix="">
+      <TEMPO Inizio="0.036" Bpm="122.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="103857561" Name="Refrak" Artist="Sebastian Kramer" Composer=""
+           Album="RKVE 1999-2003" Grouping="" Genre="Techno, Bleep" Kind="AIFF File"
+           Size="98231634" TotalTime="371" DiscNumber="0" TrackNumber="2"
+           Year="2018" AverageBpm="136.00" DateAdded="2025-07-01" BitRate="2116"
+           SampleRate="44100" Comments="Visit https://mord.bandcamp.com /* Bleep / Techno */"
+           PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Sebastian%20Kramer%20-%20Refrak.aiff"
+           Remixer="" Tonality="Am" Label="" Mix="">
+      <TEMPO Inizio="0.099" Bpm="136.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="190119667" Name="Big Fish (Marcellus Pittman Remix)"
+           Artist="The Rhythm Odyssey &amp; Dr Dunks" Composer="" Album="Big Fish"
+           Grouping="" Genre="House" Kind="AIFF File" Size="82893616" TotalTime="469"
+           DiscNumber="0" TrackNumber="1" Year="2015" AverageBpm="119.47"
+           DateAdded="2025-07-01" BitRate="1411" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/The%20Rhythm%20Odyssey%20%26%20Dr%20Dunks%20-%20Big%20Fish%20(Marcellus%20Pittman%20Remix).aiff"
+           Remixer="" Tonality="Am" Label="Golf Channel Recordings" Mix="">
+      <TEMPO Inizio="0.201" Bpm="119.47" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="39.373" Bpm="119.47" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="62.474" Bpm="119.47" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="90.597" Bpm="119.47" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="120.729" Bpm="119.47" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="143.830" Bpm="119.47" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="174.464" Bpm="119.47" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="204.596" Bpm="119.47" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="227.697" Bpm="119.47" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="257.829" Bpm="119.47" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="280.930" Bpm="119.47" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="304.031" Bpm="119.47" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="334.163" Bpm="119.47" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="357.264" Bpm="119.47" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="385.387" Bpm="119.47" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="415.519" Bpm="119.47" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="438.620" Bpm="119.47" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="466.743" Bpm="119.47" Metro="4/4" Battito="2"/>
+    </TRACK>
+    <TRACK TrackID="72957371" Name="Circles (Beat Bonus)" Artist="The Rhythm Odyssey &amp; Dr Dunks"
+           Composer="" Album="Circles / Glow" Grouping="" Genre="Downtempo, Percussion"
+           Kind="AIFF File" Size="29568274" TotalTime="167" DiscNumber="0"
+           TrackNumber="4" Year="2012" AverageBpm="105.00" DateAdded="2025-07-01"
+           BitRate="1411" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/The%20Rhythm%20Odyssey%20%26%20Dr%20Dunks%20-%20Circles%20(Beat%20Bonus).aiff"
+           Remixer="" Tonality="Cm" Label="Golf Channel Recordings" Mix="">
+      <TEMPO Inizio="0.018" Bpm="105.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="227022269" Name="Promo Only (Original Mix)" Artist="Baffopizza"
+           Composer="" Album="Promo Only" Grouping="" Genre="Deep House, Leftfield House"
+           Kind="AIFF File" Size="78457748" TotalTime="443" DiscNumber="0"
+           TrackNumber="1" Year="2016" AverageBpm="122.50" DateAdded="2025-07-01"
+           BitRate="1411" SampleRate="44100" Comments=" /* 6 -  */" PlayCount="0"
+           Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Baffopizza%20-%20Promo%20Only%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Cm" Label="Jolly Jams" Mix="">
+      <TEMPO Inizio="0.061" Bpm="122.50" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="99216732" Name="Tricks on Wax (Original Mix)" Artist="Ben Sun"
+           Composer="" Album="Tricks on Wax" Grouping="" Genre="House" Kind="AIFF File"
+           Size="80632022" TotalTime="454" DiscNumber="0" TrackNumber="1"
+           Year="2015" AverageBpm="123.00" DateAdded="2025-07-01" BitRate="1411"
+           SampleRate="44100" Comments=" /* House */" PlayCount="0" Rating="0"
+           Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Ben%20Sun%20-%20Tricks%20on%20Wax%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Db" Label="Delusions Of Grandeur" Mix="">
+      <TEMPO Inizio="0.010" Bpm="123.00" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="215516614" Name="Promo Only (Leo Mas &amp; Fabrice Mix)"
+           Artist="Conor" Composer="" Album="Promo Only" Grouping="" Genre="Leftfield, New Jack Swing"
+           Kind="AIFF File" Size="73616768" TotalTime="416" DiscNumber="0"
+           TrackNumber="4" Year="2016" AverageBpm="148.55" DateAdded="2025-07-01"
+           BitRate="1411" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Conor%20-%20Promo%20Only%20(Leo%20Mas%20%26%20Fabrice%20Mix).aiff"
+           Remixer="" Tonality="F#m" Label="Jolly Jams" Mix="">
+      <TEMPO Inizio="0.011" Bpm="148.55" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="211259168" Name="Loving You Like Crazy (Check This Out)"
+           Artist="Corina" Composer="" Album="Loving You Like Crazy" Grouping=""
+           Genre="Latin House, Deep House" Kind="AIFF File" Size="63942298"
+           TotalTime="361" DiscNumber="0" TrackNumber="2" Year="1990" AverageBpm="119.63"
+           DateAdded="2025-07-01" BitRate="1411" SampleRate="44100" Comments=""
+           PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Corina%20-%20Loving%20You%20Like%20Crazy%20(Check%20This%20Out).aiff"
+           Remixer="" Tonality="Abm" Label="Cutting Records" Mix="">
+      <TEMPO Inizio="0.422" Bpm="119.63" Metro="4/4" Battito="4"/>
+    </TRACK>
+    <TRACK TrackID="58669402" Name="When You Love Someone (Club Mix)" Artist="Daphne"
+           Composer="" Album="When You Love Someone" Grouping="" Genre="Deep House, Vocal House"
+           Kind="AIFF File" Size="86467326" TotalTime="489" DiscNumber="0"
+           TrackNumber="2" Year="1993" AverageBpm="120.93" DateAdded="2025-07-01"
+           BitRate="1411" SampleRate="44100" Comments="ID from Space Ghost @ Beacon Fest (March 2023)"
+           PlayCount="0" Rating="0" Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Daphne%20-%20When%20You%20Love%20Someone%20(Club%20Mix).aiff"
+           Remixer="" Tonality="Db" Label="Maxi Records" Mix="">
+      <TEMPO Inizio="0.054" Bpm="120.93" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="0.551" Bpm="120.93" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="24.367" Bpm="120.93" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="54.633" Bpm="120.93" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="78.449" Bpm="120.93" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="108.715" Bpm="120.93" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="138.981" Bpm="120.93" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="162.797" Bpm="120.93" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="193.063" Bpm="120.93" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="223.329" Bpm="120.93" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="247.145" Bpm="120.93" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="277.411" Bpm="120.93" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="307.677" Bpm="120.93" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="331.493" Bpm="120.93" Metro="4/4" Battito="4"/>
+      <TEMPO Inizio="361.759" Bpm="120.93" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="385.575" Bpm="120.93" Metro="4/4" Battito="1"/>
+      <TEMPO Inizio="415.841" Bpm="120.93" Metro="4/4" Battito="2"/>
+      <TEMPO Inizio="446.107" Bpm="120.93" Metro="4/4" Battito="3"/>
+      <TEMPO Inizio="469.923" Bpm="120.93" Metro="4/4" Battito="3"/>
+    </TRACK>
+    <TRACK TrackID="25857762" Name="Promo Only (Original Mix)" Artist="DJ Kaos"
+           Composer="" Album="Promo Only" Grouping="" Genre="Deep House, Electro, Leftfield House"
+           Kind="AIFF File" Size="68240622" TotalTime="385" DiscNumber="0"
+           TrackNumber="2" Year="2016" AverageBpm="119.38" DateAdded="2025-07-01"
+           BitRate="1411" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/DJ%20Kaos%20-%20Promo%20Only%20(Original%20Mix).aiff"
+           Remixer="" Tonality="A" Label="Jolly Jams" Mix="">
+      <TEMPO Inizio="0.103" Bpm="119.38" Metro="4/4" Battito="1"/>
+    </TRACK>
+    <TRACK TrackID="88059958" Name="The Score (Original Mix)" Artist="DJ Martelli"
+           Composer="" Album="The Score" Grouping="" Genre="Tech House"
+           Kind="AIFF File" Size="103086346" TotalTime="584" DiscNumber="0"
+           TrackNumber="1" Year="2003" AverageBpm="128.00" DateAdded="2025-07-01"
+           BitRate="1411" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/DJ%20Martelli%20-%20The%20Score%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Dbm" Label="Camouflage Recordings" Mix="">
+      <TEMPO Inizio="0.119" Bpm="128.00" Metro="4/4" Battito="4"/>
+    </TRACK>
+    <TRACK TrackID="169294595" Name="I Wanna Know (Original Mix)" Artist="Eddie Fowlkes"
+           Composer="" Album="Archives Vol. 1" Grouping="" Genre="Deep House, Italo House"
+           Kind="AIFF File" Size="72089322" TotalTime="407" DiscNumber="0"
+           TrackNumber="1" Year="2021" AverageBpm="124.01" DateAdded="2025-07-01"
+           BitRate="1411" SampleRate="44100" Comments="" PlayCount="0" Rating="0"
+           Location="file://localhost/F:/DJ%20MUSIC/BEATPORT/Eddie%20Fowlkes%20-%20I%20Wanna%20Know%20(Original%20Mix).aiff"
+           Remixer="" Tonality="Am" Label="Detroit Wax Digital" Mix="">
+      <TEMPO Inizio="0.366" Bpm="124.01" Metro="4/4" Battito="3"/>
+    </TRACK>
+  </COLLECTION>
+  <PLAYLISTS>
+    <NODE Type="0" Name="ROOT" Count="1">
+      <NODE Name="5star" Type="1" KeyType="0" Entries="8">
+        <TRACK Key="222328904"/>
+        <TRACK Key="87710127"/>
+        <TRACK Key="239649368"/>
+        <TRACK Key="100644319"/>
+        <TRACK Key="86186288"/>
+        <TRACK Key="160187906"/>
+        <TRACK Key="76709359"/>
+        <TRACK Key="16684196"/>
+      </NODE>
+    </NODE>
+  </PLAYLISTS>
+</DJ_PLAYLISTS>
