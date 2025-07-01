@@ -12,7 +12,7 @@
     "x": 0,
     "y": 0,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -28,7 +28,7 @@
     "x": -165.0,
     "y": 95.26,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -44,7 +44,7 @@
     "x": 0.0,
     "y": 190.53,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -60,7 +60,7 @@
     "x": 165.0,
     "y": 95.26,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -76,7 +76,7 @@
     "x": 165.0,
     "y": -95.26,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -92,7 +92,7 @@
     "x": 0.0,
     "y": -190.53,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -108,7 +108,7 @@
     "x": -165.0,
     "y": -95.26,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -124,7 +124,7 @@
     "x": -330.0,
     "y": 190.53,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -140,7 +140,7 @@
     "x": -165.0,
     "y": 285.79,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -156,7 +156,7 @@
     "x": 0.0,
     "y": 381.05,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -172,7 +172,7 @@
     "x": 165.0,
     "y": 285.79,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -188,7 +188,7 @@
     "x": 330.0,
     "y": 190.53,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -204,7 +204,7 @@
     "x": 330.0,
     "y": 0.0,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -220,7 +220,7 @@
     "x": 330.0,
     "y": -190.53,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -236,7 +236,7 @@
     "x": 165.0,
     "y": -285.79,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -252,7 +252,7 @@
     "x": 0.0,
     "y": -381.05,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -268,7 +268,7 @@
     "x": -165.0,
     "y": -285.79,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -284,7 +284,7 @@
     "x": -330.0,
     "y": -190.53,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -300,7 +300,7 @@
     "x": -330.0,
     "y": 0.0,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -316,7 +316,7 @@
     "x": -495.0,
     "y": 285.79,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -332,7 +332,7 @@
     "x": -330.0,
     "y": 381.05,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -348,7 +348,7 @@
     "x": -165.0,
     "y": 476.31,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -364,7 +364,7 @@
     "x": 0.0,
     "y": 571.58,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -380,7 +380,7 @@
     "x": 165.0,
     "y": 476.31,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -396,7 +396,7 @@
     "x": 330.0,
     "y": 381.05,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -412,7 +412,7 @@
     "x": 495.0,
     "y": 285.79,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -428,7 +428,7 @@
     "x": 495.0,
     "y": 95.26,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -444,7 +444,7 @@
     "x": 495.0,
     "y": -95.26,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -460,7 +460,7 @@
     "x": 495.0,
     "y": -285.79,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -476,7 +476,7 @@
     "x": 330.0,
     "y": -381.05,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -492,7 +492,7 @@
     "x": 165.0,
     "y": -476.31,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -508,7 +508,7 @@
     "x": 0.0,
     "y": -571.58,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -524,7 +524,7 @@
     "x": -165.0,
     "y": -476.31,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -540,7 +540,7 @@
     "x": -330.0,
     "y": -381.05,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -556,7 +556,7 @@
     "x": -495.0,
     "y": -285.79,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -572,7 +572,7 @@
     "x": -495.0,
     "y": -95.26,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -588,7 +588,7 @@
     "x": -495.0,
     "y": 95.26,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -604,7 +604,7 @@
     "x": -660.0,
     "y": 381.05,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -620,7 +620,7 @@
     "x": -495.0,
     "y": 476.31,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -636,7 +636,7 @@
     "x": -330.0,
     "y": 571.58,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -652,7 +652,7 @@
     "x": -165.0,
     "y": 666.84,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=None+None",
+    "preview_url": null,
     "buy_url": "https://bandcamp.com/search?q=None+None"
   },
   {
@@ -668,7 +668,7 @@
     "x": 1072.63,
     "y": 0,
     "colour": "#008080",
-    "preview_url": "https://www.youtube.com/results?search_query=LEB+Harmony+Feeling+Love",
+    "preview_url": "https://www.youtube.com/watch?v=qOGkgW3Q6vc",
     "buy_url": "https://bandcamp.com/search?q=LEB+Harmony+Feeling+Love"
   },
   {
@@ -684,7 +684,7 @@
     "x": 907.63,
     "y": 95.26,
     "colour": "#008080",
-    "preview_url": "https://www.youtube.com/results?search_query=Yello+Daily+Disco+(Club+Mix+/+Remastered+2005)",
+    "preview_url": "https://www.youtube.com/watch?v=06uagaWj_r4",
     "buy_url": "https://bandcamp.com/search?q=Yello+Daily+Disco+(Club+Mix+/+Remastered+2005)"
   },
   {
@@ -700,7 +700,7 @@
     "x": 854.07,
     "y": 220.59,
     "colour": "#808000",
-    "preview_url": "https://www.youtube.com/results?search_query=Marcus+Intalex+Warp+1",
+    "preview_url": "https://www.youtube.com/watch?v=Sj3rv5255Bw",
     "buy_url": "https://bandcamp.com/search?q=Marcus+Intalex+Warp+1"
   },
   {
@@ -716,7 +716,7 @@
     "x": 955.6,
     "y": -487.19,
     "colour": "#bcf60c",
-    "preview_url": "https://www.youtube.com/results?search_query=Dustin+A+Bit+More+Cortizol",
+    "preview_url": "https://www.youtube.com/watch?v=-OKHhm1LlGQ",
     "buy_url": "https://bandcamp.com/search?q=Dustin+A+Bit+More+Cortizol"
   },
   {
@@ -732,7 +732,7 @@
     "x": 790.6,
     "y": -391.93,
     "colour": "#bcf60c",
-    "preview_url": "https://www.youtube.com/results?search_query=DJ+Hal+Aphrodisiac+(Red+Star+Remix)",
+    "preview_url": "https://www.youtube.com/watch?v=6riO1nUbuUw",
     "buy_url": "https://bandcamp.com/search?q=DJ+Hal+Aphrodisiac+(Red+Star+Remix)"
   },
   {
@@ -748,7 +748,7 @@
     "x": 938.47,
     "y": 519.43,
     "colour": "#808000",
-    "preview_url": "https://www.youtube.com/results?search_query=Danniebelle+Hall+It's+Freedom",
+    "preview_url": "https://www.youtube.com/watch?v=9PeBEwZG5v0",
     "buy_url": "https://bandcamp.com/search?q=Danniebelle+Hall+It's+Freedom"
   },
   {
@@ -764,7 +764,7 @@
     "x": 773.47,
     "y": 614.69,
     "colour": "#808000",
-    "preview_url": "https://www.youtube.com/results?search_query=The+Heath+Brothers+Smilin'+Billy+Suite,+Part+I",
+    "preview_url": "https://www.youtube.com/watch?v=W6CSekdyiCc",
     "buy_url": "https://bandcamp.com/search?q=The+Heath+Brothers+Smilin'+Billy+Suite,+Part+I"
   },
   {
@@ -780,7 +780,7 @@
     "x": 938.47,
     "y": 709.95,
     "colour": "#808000",
-    "preview_url": "https://www.youtube.com/results?search_query=Nohelani+Cypriano+Jerry+Byrd+Henry+Kapono+Peter+Moon+Kapono+Beamer+Roscoe+Wright+Master+Henry+Gibson+John+Raposa+Kata+Maduli+Wayne+Hobbs+Winner+Female+Vocalist+of+the+Year+Hoku+Winner+Contemporary+Hawaiian+Album+of+the+Year+Hoku+Lihue",
+    "preview_url": "https://www.youtube.com/watch?v=_eA2vaHDGAU",
     "buy_url": "https://bandcamp.com/search?q=Nohelani+Cypriano+Jerry+Byrd+Henry+Kapono+Peter+Moon+Kapono+Beamer+Roscoe+Wright+Master+Henry+Gibson+John+Raposa+Kata+Maduli+Wayne+Hobbs+Winner+Female+Vocalist+of+the+Year+Hoku+Winner+Contemporary+Hawaiian+Album+of+the+Year+Hoku+Lihue"
   },
   {
@@ -796,7 +796,7 @@
     "x": 630.06,
     "y": -868.08,
     "colour": "#bcf60c",
-    "preview_url": "https://www.youtube.com/results?search_query=Solomon+Burke+I+Know+He+Lives+In+Me",
+    "preview_url": "https://www.youtube.com/watch?v=5xHtGge-9ow",
     "buy_url": "https://bandcamp.com/search?q=Solomon+Burke+I+Know+He+Lives+In+Me"
   },
   {
@@ -812,7 +812,7 @@
     "x": 465.06,
     "y": -772.81,
     "colour": "#bcf60c",
-    "preview_url": "https://www.youtube.com/results?search_query=Sade+Love+Is+Stronger+Than+Pride",
+    "preview_url": "https://www.youtube.com/watch?v=e2Ljkr9NmOg",
     "buy_url": "https://bandcamp.com/search?q=Sade+Love+Is+Stronger+Than+Pride"
   },
   {
@@ -828,7 +828,7 @@
     "x": 630.06,
     "y": -677.55,
     "colour": "#bcf60c",
-    "preview_url": "https://www.youtube.com/results?search_query=The+O'Jays+Put+Our+Heads+Together",
+    "preview_url": "https://www.youtube.com/watch?v=Aq8n8yQQWiM",
     "buy_url": "https://bandcamp.com/search?q=The+O'Jays+Put+Our+Heads+Together"
   },
   {
@@ -844,7 +844,7 @@
     "x": 640.43,
     "y": 606.59,
     "colour": "#f032e6",
-    "preview_url": "https://www.youtube.com/results?search_query=Vico+C+Boom+Boom",
+    "preview_url": "https://www.youtube.com/watch?v=gSo8H72_EL0",
     "buy_url": "https://bandcamp.com/search?q=Vico+C+Boom+Boom"
   },
   {
@@ -860,7 +860,7 @@
     "x": 569.55,
     "y": 908.92,
     "colour": "#9a6324",
-    "preview_url": "https://www.youtube.com/results?search_query=The+True+Underground+Sound+Of+Rome+Secret+Doctrine",
+    "preview_url": "https://www.youtube.com/watch?v=gLOCL3DY7sk",
     "buy_url": "https://bandcamp.com/search?q=The+True+Underground+Sound+Of+Rome+Secret+Doctrine"
   },
   {
@@ -876,7 +876,7 @@
     "x": 404.55,
     "y": 1004.19,
     "colour": "#9a6324",
-    "preview_url": "https://www.youtube.com/results?search_query=Tam+Tam+See+Me+Touch+Me+(Metor+Remix)",
+    "preview_url": "https://www.youtube.com/watch?v=eLXQ2dCz5ew",
     "buy_url": "https://bandcamp.com/search?q=Tam+Tam+See+Me+Touch+Me+(Metor+Remix)"
   },
   {
@@ -892,7 +892,7 @@
     "x": 569.55,
     "y": 1099.45,
     "colour": "#9a6324",
-    "preview_url": "https://www.youtube.com/results?search_query=Soft+Sugar+Metro+(Funk+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=c_nUPVeFz3Q",
     "buy_url": "https://bandcamp.com/search?q=Soft+Sugar+Metro+(Funk+Mix)"
   },
   {
@@ -908,7 +908,7 @@
     "x": 734.55,
     "y": 1004.19,
     "colour": "#9a6324",
-    "preview_url": "https://www.youtube.com/results?search_query=Tracer+Love+Fantasy+(Vocal)",
+    "preview_url": "https://www.youtube.com/watch?v=8YhN4lPqvko",
     "buy_url": "https://bandcamp.com/search?q=Tracer+Love+Fantasy+(Vocal)"
   },
   {
@@ -924,7 +924,7 @@
     "x": 734.55,
     "y": 813.66,
     "colour": "#9a6324",
-    "preview_url": "https://www.youtube.com/results?search_query=Sueño+Latino+Sueno+Latino+(Paradise+Version)",
+    "preview_url": "https://www.youtube.com/watch?v=DXhqDeTSEl4",
     "buy_url": "https://bandcamp.com/search?q=Sueño+Latino+Sueno+Latino+(Paradise+Version)"
   },
   {
@@ -940,7 +940,7 @@
     "x": 167.03,
     "y": -1059.54,
     "colour": "#e6beff",
-    "preview_url": "https://www.youtube.com/results?search_query=Takuya+Sugisawa+It's+A+Dream",
+    "preview_url": "https://www.youtube.com/watch?v=x52FZMNT_Vc",
     "buy_url": "https://bandcamp.com/search?q=Takuya+Sugisawa+It's+A+Dream"
   },
   {
@@ -956,7 +956,7 @@
     "x": 2.03,
     "y": -964.28,
     "colour": "#e6beff",
-    "preview_url": "https://www.youtube.com/results?search_query=Space+Ghost+Sim+City",
+    "preview_url": "https://www.youtube.com/watch?v=9jYYxKxVyCI",
     "buy_url": "https://bandcamp.com/search?q=Space+Ghost+Sim+City"
   },
   {
@@ -972,7 +972,7 @@
     "x": 167.03,
     "y": -869.02,
     "colour": "#e6beff",
-    "preview_url": "https://www.youtube.com/results?search_query=Sound+Clash+Republic+Raunchy+After+Dark",
+    "preview_url": "https://www.youtube.com/watch?v=CsnMPWTcK4o",
     "buy_url": "https://bandcamp.com/search?q=Sound+Clash+Republic+Raunchy+After+Dark"
   },
   {
@@ -988,7 +988,7 @@
     "x": 332.03,
     "y": -964.28,
     "colour": "#e6beff",
-    "preview_url": "https://www.youtube.com/results?search_query=Shinichiro+Yokota+Bells",
+    "preview_url": "https://www.youtube.com/watch?v=WUIVfuYJfzY",
     "buy_url": "https://bandcamp.com/search?q=Shinichiro+Yokota+Bells"
   },
   {
@@ -1004,7 +1004,7 @@
     "x": 332.03,
     "y": -1154.81,
     "colour": "#e6beff",
-    "preview_url": "https://www.youtube.com/results?search_query=Saxxy+Fever+(LateNite+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=cXAwAvaXPis",
     "buy_url": "https://bandcamp.com/search?q=Saxxy+Fever+(LateNite+Mix)"
   },
   {
@@ -1020,7 +1020,7 @@
     "x": -332.44,
     "y": -1019.81,
     "colour": "#000075",
-    "preview_url": "https://www.youtube.com/results?search_query=Raul+Orellana+You+Can't+Stop+The+House",
+    "preview_url": "https://www.youtube.com/watch?v=g8EG6V96lnc",
     "buy_url": "https://bandcamp.com/search?q=Raul+Orellana+You+Can't+Stop+The+House"
   },
   {
@@ -1036,7 +1036,7 @@
     "x": -497.44,
     "y": -924.55,
     "colour": "#000075",
-    "preview_url": "https://www.youtube.com/results?search_query=Sexy+Plus+Chico+Travieso+(Version+Discoteca)",
+    "preview_url": "https://www.youtube.com/watch?v=kJ-EeRxhUKE",
     "buy_url": "https://bandcamp.com/search?q=Sexy+Plus+Chico+Travieso+(Version+Discoteca)"
   },
   {
@@ -1052,7 +1052,7 @@
     "x": 94.58,
     "y": 1068.45,
     "colour": "#f032e6",
-    "preview_url": "https://www.youtube.com/results?search_query=Quando+Quango+Genius",
+    "preview_url": "https://www.youtube.com/watch?v=V-HwNy_XjAU",
     "buy_url": "https://bandcamp.com/search?q=Quando+Quango+Genius"
   },
   {
@@ -1068,7 +1068,7 @@
     "x": -70.42,
     "y": 1163.71,
     "colour": "#f032e6",
-    "preview_url": "https://www.youtube.com/results?search_query=John+Rocca+Dub+Groove",
+    "preview_url": "https://www.youtube.com/watch?v=Bl7n741Pyj4",
     "buy_url": "https://bandcamp.com/search?q=John+Rocca+Dub+Groove"
   },
   {
@@ -1084,7 +1084,7 @@
     "x": 94.58,
     "y": 1258.98,
     "colour": "#f032e6",
-    "preview_url": "https://www.youtube.com/results?search_query=Frankie+Knuckles+Baby+Wants+to+Ride",
+    "preview_url": "https://www.youtube.com/watch?v=l_L0oSNpW1M",
     "buy_url": "https://bandcamp.com/search?q=Frankie+Knuckles+Baby+Wants+to+Ride"
   },
   {
@@ -1100,7 +1100,7 @@
     "x": 259.58,
     "y": 1163.71,
     "colour": "#f032e6",
-    "preview_url": "https://www.youtube.com/results?search_query=Bang+The+Party+Release+Your+Body",
+    "preview_url": "https://www.youtube.com/watch?v=xG_9b5OqDW4",
     "buy_url": "https://bandcamp.com/search?q=Bang+The+Party+Release+Your+Body"
   },
   {
@@ -1116,7 +1116,7 @@
     "x": -144.43,
     "y": 870.2,
     "colour": "#46f0f0",
-    "preview_url": "https://www.youtube.com/results?search_query=NYC+Peech+Boys+Don't+Make+Me+Wait+(MAW+Main;+2016+-+Remaster)",
+    "preview_url": "https://www.youtube.com/watch?v=v2Q2F-1toiI",
     "buy_url": "https://bandcamp.com/search?q=NYC+Peech+Boys+Don't+Make+Me+Wait+(MAW+Main;+2016+-+Remaster)"
   },
   {
@@ -1132,7 +1132,7 @@
     "x": -759.38,
     "y": -757.55,
     "colour": "#808080",
-    "preview_url": "https://www.youtube.com/results?search_query=Frankie+Goes+To+Hollywood+Relax+(New+York+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=VI2Rf_reb1A",
     "buy_url": "https://bandcamp.com/search?q=Frankie+Goes+To+Hollywood+Relax+(New+York+Mix)"
   },
   {
@@ -1148,7 +1148,7 @@
     "x": -924.38,
     "y": -662.29,
     "colour": "#808080",
-    "preview_url": "https://www.youtube.com/results?search_query=Alexander+Robotnick+Problèmes+d'Amour+(Underground)",
+    "preview_url": "https://www.youtube.com/watch?v=-oOEhivLSFI",
     "buy_url": "https://bandcamp.com/search?q=Alexander+Robotnick+Problèmes+d'Amour+(Underground)"
   },
   {
@@ -1164,7 +1164,7 @@
     "x": -759.38,
     "y": -567.02,
     "colour": "#808080",
-    "preview_url": "https://www.youtube.com/results?search_query=J.E.+Movement+Ama+-+Bad+Girls",
+    "preview_url": "https://www.youtube.com/watch?v=zYUewxHoA8I",
     "buy_url": "https://bandcamp.com/search?q=J.E.+Movement+Ama+-+Bad+Girls"
   },
   {
@@ -1180,7 +1180,7 @@
     "x": -594.38,
     "y": -662.29,
     "colour": "#808080",
-    "preview_url": "https://www.youtube.com/results?search_query=Yellow+Magic+Orchestra+Cue+(2018+Yoshinori+Sunahara+Remastering)",
+    "preview_url": "https://www.youtube.com/watch?v=wsKD6EzGJeY",
     "buy_url": "https://bandcamp.com/search?q=Yellow+Magic+Orchestra+Cue+(2018+Yoshinori+Sunahara+Remastering)"
   },
   {
@@ -1196,7 +1196,7 @@
     "x": -594.38,
     "y": -852.81,
     "colour": "#808080",
-    "preview_url": "https://www.youtube.com/results?search_query=White+Second+The+Guard+Song",
+    "preview_url": "https://www.youtube.com/watch?v=MIhBYvf8a2Y",
     "buy_url": "https://bandcamp.com/search?q=White+Second+The+Guard+Song"
   },
   {
@@ -1212,7 +1212,7 @@
     "x": -759.38,
     "y": -948.07,
     "colour": "#808080",
-    "preview_url": "https://www.youtube.com/results?search_query=Fransheska+Dulce+Material",
+    "preview_url": "https://www.youtube.com/watch?v=SeVay7Evnhc",
     "buy_url": "https://bandcamp.com/search?q=Fransheska+Dulce+Material"
   },
   {
@@ -1228,7 +1228,7 @@
     "x": -760.44,
     "y": -447.03,
     "colour": "#bcf60c",
-    "preview_url": "https://www.youtube.com/results?search_query=4+A.M.+Love+It+(After+Hours+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=hyxp4lUidMU",
     "buy_url": "https://bandcamp.com/search?q=4+A.M.+Love+It+(After+Hours+Mix)"
   },
   {
@@ -1244,7 +1244,7 @@
     "x": -1031.25,
     "y": -295.06,
     "colour": "#fffac8",
-    "preview_url": "https://www.youtube.com/results?search_query=RED+DRAGON+BAND+Let+Me+Be+Your+Radio+(Part+1)",
+    "preview_url": "https://www.youtube.com/watch?v=Uy6Q_uN_9h4",
     "buy_url": "https://bandcamp.com/search?q=RED+DRAGON+BAND+Let+Me+Be+Your+Radio+(Part+1)"
   },
   {
@@ -1260,7 +1260,7 @@
     "x": -1196.25,
     "y": -199.8,
     "colour": "#fffac8",
-    "preview_url": "https://www.youtube.com/results?search_query=Hypnosis+Bang,+Bang,+Boogie+(Extended+Version)",
+    "preview_url": "https://www.youtube.com/watch?v=WHEooFuZIuc",
     "buy_url": "https://bandcamp.com/search?q=Hypnosis+Bang,+Bang,+Boogie+(Extended+Version)"
   },
   {
@@ -1276,7 +1276,7 @@
     "x": -1031.25,
     "y": -104.54,
     "colour": "#fffac8",
-    "preview_url": "https://www.youtube.com/results?search_query=Gary+Low+La+Colegiala",
+    "preview_url": "https://www.youtube.com/watch?v=VL7O5kqKqYk",
     "buy_url": "https://bandcamp.com/search?q=Gary+Low+La+Colegiala"
   },
   {
@@ -1292,7 +1292,7 @@
     "x": -866.25,
     "y": -199.8,
     "colour": "#fffac8",
-    "preview_url": "https://www.youtube.com/results?search_query=Angelo+Di+Napoli+Non+Si+Puo",
+    "preview_url": "https://www.youtube.com/watch?v=_EWficSjgmA",
     "buy_url": "https://bandcamp.com/search?q=Angelo+Di+Napoli+Non+Si+Puo"
   },
   {
@@ -1308,7 +1308,7 @@
     "x": -866.25,
     "y": -390.33,
     "colour": "#fffac8",
-    "preview_url": "https://www.youtube.com/results?search_query=Real+Man+Follow+Me+(Vocal)",
+    "preview_url": "https://www.youtube.com/watch?v=BmgO6YXUwBc",
     "buy_url": "https://bandcamp.com/search?q=Real+Man+Follow+Me+(Vocal)"
   },
   {
@@ -1324,7 +1324,7 @@
     "x": -434.66,
     "y": 980.61,
     "colour": "#e6beff",
-    "preview_url": "https://www.youtube.com/results?search_query=Easy+Going+Fear",
+    "preview_url": "https://www.youtube.com/watch?v=Iq5F1sQkImM",
     "buy_url": "https://bandcamp.com/search?q=Easy+Going+Fear"
   },
   {
@@ -1340,7 +1340,7 @@
     "x": -599.66,
     "y": 1075.88,
     "colour": "#e6beff",
-    "preview_url": "https://www.youtube.com/results?search_query=Stroke+Tokyo+Amazon+(Instrumental)",
+    "preview_url": "https://www.youtube.com/watch?v=sfFjckgHsJk",
     "buy_url": "https://bandcamp.com/search?q=Stroke+Tokyo+Amazon+(Instrumental)"
   },
   {
@@ -1356,7 +1356,7 @@
     "x": -434.66,
     "y": 1171.14,
     "colour": "#e6beff",
-    "preview_url": "https://www.youtube.com/results?search_query=Tipinifini+Talk+About",
+    "preview_url": "https://www.youtube.com/watch?v=G1OkCWmMzCE",
     "buy_url": "https://bandcamp.com/search?q=Tipinifini+Talk+About"
   },
   {
@@ -1372,7 +1372,7 @@
     "x": -547.76,
     "y": 691.42,
     "colour": "#aaffc3",
-    "preview_url": "https://www.youtube.com/results?search_query=Wynton+Marsalis+Hesitation",
+    "preview_url": "https://www.youtube.com/watch?v=AEKgpGqnKkk",
     "buy_url": "https://bandcamp.com/search?q=Wynton+Marsalis+Hesitation"
   },
   {
@@ -1388,7 +1388,7 @@
     "x": -855.16,
     "y": 647.48,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=Waka+Wakah+06+The+See",
+    "preview_url": "https://www.youtube.com/watch?v=pRpeEdMmmQ0",
     "buy_url": "https://bandcamp.com/search?q=Waka+Wakah+06+The+See"
   },
   {
@@ -1404,7 +1404,7 @@
     "x": -1020.16,
     "y": 742.74,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=Barry+Morgan+Clippity+Clop",
+    "preview_url": "https://www.youtube.com/watch?v=os0nnLXYMNM",
     "buy_url": "https://bandcamp.com/search?q=Barry+Morgan+Clippity+Clop"
   },
   {
@@ -1420,7 +1420,7 @@
     "x": -1086.35,
     "y": 202.95,
     "colour": "#aaffc3",
-    "preview_url": "https://www.youtube.com/results?search_query=Soul+II+Soul+African+Dance",
+    "preview_url": "https://www.youtube.com/watch?v=qTlMSUy343c",
     "buy_url": "https://bandcamp.com/search?q=Soul+II+Soul+African+Dance"
   },
   {
@@ -1436,7 +1436,7 @@
     "x": -1251.35,
     "y": 298.21,
     "colour": "#aaffc3",
-    "preview_url": "https://www.youtube.com/results?search_query=Zazou,+Bikaye+and+CY1+Dju+Ya+Feza+(Simon+Boswell+Remix)",
+    "preview_url": "https://www.youtube.com/watch?v=tiGuMq1gktw",
     "buy_url": "https://bandcamp.com/search?q=Zazou,+Bikaye+and+CY1+Dju+Ya+Feza+(Simon+Boswell+Remix)"
   },
   {
@@ -1452,7 +1452,7 @@
     "x": -1086.35,
     "y": 393.47,
     "colour": "#aaffc3",
-    "preview_url": "https://www.youtube.com/results?search_query=Shakti+Rainbows",
+    "preview_url": "https://www.youtube.com/watch?v=eTSCutxLg38",
     "buy_url": "https://bandcamp.com/search?q=Shakti+Rainbows"
   },
   {
@@ -1468,7 +1468,7 @@
     "x": -921.35,
     "y": 298.21,
     "colour": "#aaffc3",
-    "preview_url": "https://www.youtube.com/results?search_query=Yello+Of+Course+I'm+Lying+(Remastered+2005)",
+    "preview_url": "https://www.youtube.com/watch?v=7pUd3xSAlzI",
     "buy_url": "https://bandcamp.com/search?q=Yello+Of+Course+I'm+Lying+(Remastered+2005)"
   },
   {
@@ -1484,7 +1484,7 @@
     "x": -921.35,
     "y": 107.68,
     "colour": "#aaffc3",
-    "preview_url": "https://www.youtube.com/results?search_query=Unknown+Artist+Jungle+(Afrobot+Edit)",
+    "preview_url": "https://www.youtube.com/watch?v=eWbPVU8mGzo",
     "buy_url": "https://bandcamp.com/search?q=Unknown+Artist+Jungle+(Afrobot+Edit)"
   },
   {
@@ -1500,7 +1500,7 @@
     "x": -1086.35,
     "y": 12.42,
     "colour": "#aaffc3",
-    "preview_url": "https://www.youtube.com/results?search_query=The+Primitive+Painter+Invisible+Landscapes",
+    "preview_url": "https://www.youtube.com/watch?v=WHc6HldBu3M",
     "buy_url": "https://bandcamp.com/search?q=The+Primitive+Painter+Invisible+Landscapes"
   },
   {
@@ -1516,7 +1516,7 @@
     "x": -1251.35,
     "y": 107.68,
     "colour": "#aaffc3",
-    "preview_url": "https://www.youtube.com/results?search_query=Sun+Electric+O'locco+(Space+Therapy)",
+    "preview_url": "https://www.youtube.com/watch?v=-sWisSmUS1I",
     "buy_url": "https://bandcamp.com/search?q=Sun+Electric+O'locco+(Space+Therapy)"
   },
   {
@@ -1532,7 +1532,7 @@
     "x": 1157.02,
     "y": 298.84,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=Phronesis+Jasper+Høiby+Mark+Guiliana+Ivo+Neame+Abraham's+New+Gift",
+    "preview_url": "https://www.youtube.com/watch?v=ly8KniNgkXo",
     "buy_url": "https://bandcamp.com/search?q=Phronesis+Jasper+Høiby+Mark+Guiliana+Ivo+Neame+Abraham's+New+Gift"
   },
   {
@@ -1548,7 +1548,7 @@
     "x": 867.59,
     "y": 821.76,
     "colour": "#aaffc3",
-    "preview_url": "https://www.youtube.com/results?search_query=Pat+Metheny+Spring+Ain't+Here",
+    "preview_url": "https://www.youtube.com/watch?v=rCIasa6kO00",
     "buy_url": "https://bandcamp.com/search?q=Pat+Metheny+Spring+Ain't+Here"
   },
   {
@@ -1564,7 +1564,7 @@
     "x": -195.66,
     "y": 1178.86,
     "colour": "#800000",
-    "preview_url": "https://www.youtube.com/results?search_query=Neil+Larsen+Sudden+Samba",
+    "preview_url": "https://www.youtube.com/watch?v=4E92y1wr2Gs",
     "buy_url": "https://bandcamp.com/search?q=Neil+Larsen+Sudden+Samba"
   },
   {
@@ -1580,7 +1580,7 @@
     "x": -1030.18,
     "y": -605.59,
     "colour": "#4363d8",
-    "preview_url": "https://www.youtube.com/results?search_query=Naohiko+Watanabe+Twilight+Pale+Moon",
+    "preview_url": "https://www.youtube.com/watch?v=Jjl71_4y7J8",
     "buy_url": "https://bandcamp.com/search?q=Naohiko+Watanabe+Twilight+Pale+Moon"
   },
   {
@@ -1596,7 +1596,7 @@
     "x": -907.71,
     "y": 1145.76,
     "colour": "#3cb44b",
-    "preview_url": "https://www.youtube.com/results?search_query=P!off?+Mein+Walkman+Ist+Kaputt",
+    "preview_url": "https://www.youtube.com/watch?v=zasY_fGYIck",
     "buy_url": "https://bandcamp.com/search?q=P!off?+Mein+Walkman+Ist+Kaputt"
   },
   {
@@ -1612,7 +1612,7 @@
     "x": -1072.71,
     "y": 1241.03,
     "colour": "#3cb44b",
-    "preview_url": "https://www.youtube.com/results?search_query=Steve+Poindexter+Computer+Madness+(Original+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=ef6oi5gWB7g",
     "buy_url": "https://bandcamp.com/search?q=Steve+Poindexter+Computer+Madness+(Original+Mix)"
   },
   {
@@ -1628,7 +1628,7 @@
     "x": 1436.04,
     "y": -344.94,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Kraftwerk+Ruckzuck",
+    "preview_url": "https://www.youtube.com/watch?v=ABOMrTgPNZA",
     "buy_url": "https://bandcamp.com/search?q=Kraftwerk+Ruckzuck"
   },
   {
@@ -1644,7 +1644,7 @@
     "x": 1271.04,
     "y": -249.68,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Richard+Pinhas+Variations+VII+Sur+Le+Theme+Des+Bene+Gesserit",
+    "preview_url": "https://www.youtube.com/watch?v=n4Lblb0H7lk",
     "buy_url": "https://bandcamp.com/search?q=Richard+Pinhas+Variations+VII+Sur+Le+Theme+Des+Bene+Gesserit"
   },
   {
@@ -1660,7 +1660,7 @@
     "x": 1436.04,
     "y": -154.42,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Tangerine+Dream+No+Man's+Land+(1995+Remaster)",
+    "preview_url": "https://www.youtube.com/watch?v=oaCyX1MzWE0",
     "buy_url": "https://bandcamp.com/search?q=Tangerine+Dream+No+Man's+Land+(1995+Remaster)"
   },
   {
@@ -1676,7 +1676,7 @@
     "x": 1601.04,
     "y": -249.68,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Throbbing+Gristle+Hot+on+Heels+of+Love",
+    "preview_url": "https://www.youtube.com/watch?v=T4e7zUZuvHs",
     "buy_url": "https://bandcamp.com/search?q=Throbbing+Gristle+Hot+on+Heels+of+Love"
   },
   {
@@ -1692,7 +1692,7 @@
     "x": 1601.04,
     "y": -440.21,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=They+Never+Sleep+Bite+The+Bullet+(Submission+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=Oa3b15Kaw_k",
     "buy_url": "https://bandcamp.com/search?q=They+Never+Sleep+Bite+The+Bullet+(Submission+Mix)"
   },
   {
@@ -1708,7 +1708,7 @@
     "x": 1436.04,
     "y": -535.47,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=William+Aura+Dream+Dancer",
+    "preview_url": "https://www.youtube.com/watch?v=pajyIlqRTsw",
     "buy_url": "https://bandcamp.com/search?q=William+Aura+Dream+Dancer"
   },
   {
@@ -1724,7 +1724,7 @@
     "x": 1271.04,
     "y": -440.21,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Software+Island+Sunrise",
+    "preview_url": "https://www.youtube.com/watch?v=gML0PukI5rI",
     "buy_url": "https://bandcamp.com/search?q=Software+Island+Sunrise"
   },
   {
@@ -1740,7 +1740,7 @@
     "x": 468.65,
     "y": -1133.36,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=Jacknife+Chommie+-+Dub",
+    "preview_url": "https://www.youtube.com/watch?v=eS78AIGKaQo",
     "buy_url": "https://bandcamp.com/search?q=Jacknife+Chommie+-+Dub"
   },
   {
@@ -1756,7 +1756,7 @@
     "x": -97.26,
     "y": -1222.57,
     "colour": "#46f0f0",
-    "preview_url": "https://www.youtube.com/results?search_query=Hit+Squad+Can+You+Handle+It",
+    "preview_url": "https://www.youtube.com/watch?v=9lLH-hhOv5U",
     "buy_url": "https://bandcamp.com/search?q=Hit+Squad+Can+You+Handle+It"
   },
   {
@@ -1772,7 +1772,7 @@
     "x": 1122.68,
     "y": -959.57,
     "colour": "#fabebe",
-    "preview_url": "https://www.youtube.com/results?search_query=Groove+City+Soaking+Wet+(Remix)",
+    "preview_url": "https://www.youtube.com/watch?v=GsXoDl6nsoM",
     "buy_url": "https://bandcamp.com/search?q=Groove+City+Soaking+Wet+(Remix)"
   },
   {
@@ -1788,7 +1788,7 @@
     "x": 957.68,
     "y": -864.3,
     "colour": "#fabebe",
-    "preview_url": "https://www.youtube.com/results?search_query=100th+Monkey+Raindance",
+    "preview_url": "https://www.youtube.com/watch?v=4ftiJOci5A0",
     "buy_url": "https://bandcamp.com/search?q=100th+Monkey+Raindance"
   },
   {
@@ -1804,7 +1804,7 @@
     "x": 1122.68,
     "y": -769.04,
     "colour": "#fabebe",
-    "preview_url": "https://www.youtube.com/results?search_query=Peven+Everett+Heat+Up",
+    "preview_url": "https://www.youtube.com/watch?v=wd0p62Dq0WE",
     "buy_url": "https://bandcamp.com/search?q=Peven+Everett+Heat+Up"
   },
   {
@@ -1820,7 +1820,7 @@
     "x": 470.22,
     "y": 1400.03,
     "colour": "#e6194b",
-    "preview_url": "https://www.youtube.com/results?search_query=Simon+Park+Waterfall",
+    "preview_url": "https://www.youtube.com/watch?v=MPdd6rY-Qck",
     "buy_url": "https://bandcamp.com/search?q=Simon+Park+Waterfall"
   },
   {
@@ -1836,7 +1836,7 @@
     "x": 305.22,
     "y": 1495.29,
     "colour": "#e6194b",
-    "preview_url": "https://www.youtube.com/results?search_query=Peter+Luedemann+Chemical+Threat",
+    "preview_url": "https://www.youtube.com/watch?v=XXcqkfsZ8rQ",
     "buy_url": "https://bandcamp.com/search?q=Peter+Luedemann+Chemical+Threat"
   },
   {
@@ -1852,7 +1852,7 @@
     "x": 470.22,
     "y": 1590.55,
     "colour": "#e6194b",
-    "preview_url": "https://www.youtube.com/results?search_query=Darryl+Way+Down+The+Line",
+    "preview_url": "https://www.youtube.com/watch?v=skTyanhy2pk",
     "buy_url": "https://bandcamp.com/search?q=Darryl+Way+Down+The+Line"
   },
   {
@@ -1868,7 +1868,7 @@
     "x": 635.22,
     "y": 1495.29,
     "colour": "#e6194b",
-    "preview_url": "https://www.youtube.com/results?search_query=Craig+Kupka+Electric+Piano,+Vibraphone+And+Percussion",
+    "preview_url": "https://www.youtube.com/watch?v=u1SMssGx9t4",
     "buy_url": "https://bandcamp.com/search?q=Craig+Kupka+Electric+Piano,+Vibraphone+And+Percussion"
   },
   {
@@ -1884,7 +1884,7 @@
     "x": -641.94,
     "y": -1045.01,
     "colour": "#4363d8",
-    "preview_url": "https://www.youtube.com/results?search_query=Les+Baxter+Mozambique+(Remastered)",
+    "preview_url": "https://www.youtube.com/watch?v=Ve8Hbpq1q7Y",
     "buy_url": "https://bandcamp.com/search?q=Les+Baxter+Mozambique+(Remastered)"
   },
   {
@@ -1900,7 +1900,7 @@
     "x": -1490.09,
     "y": -93.78,
     "colour": "#008080",
-    "preview_url": "https://www.youtube.com/results?search_query=Karen+Smith+Pillow+Talk",
+    "preview_url": "https://www.youtube.com/watch?v=3VmEb0bGKFs",
     "buy_url": "https://bandcamp.com/search?q=Karen+Smith+Pillow+Talk"
   },
   {
@@ -1916,7 +1916,7 @@
     "x": -1655.09,
     "y": 1.48,
     "colour": "#008080",
-    "preview_url": "https://www.youtube.com/results?search_query=Jennifer+Lara+I+Am+in+Love",
+    "preview_url": "https://www.youtube.com/watch?v=srK1TlIT82c",
     "buy_url": "https://bandcamp.com/search?q=Jennifer+Lara+I+Am+in+Love"
   },
   {
@@ -1932,7 +1932,7 @@
     "x": -1490.09,
     "y": 96.74,
     "colour": "#008080",
-    "preview_url": "https://www.youtube.com/results?search_query=Ginger+Williams+In+My+Heart",
+    "preview_url": "https://www.youtube.com/watch?v=QJwsjROFCCQ",
     "buy_url": "https://bandcamp.com/search?q=Ginger+Williams+In+My+Heart"
   },
   {
@@ -1948,7 +1948,7 @@
     "x": -1325.09,
     "y": 1.48,
     "colour": "#008080",
-    "preview_url": "https://www.youtube.com/results?search_query=The+Congos+Congoman+Chant",
+    "preview_url": "https://www.youtube.com/watch?v=RhKs2gC40io",
     "buy_url": "https://bandcamp.com/search?q=The+Congos+Congoman+Chant"
   },
   {
@@ -1964,7 +1964,7 @@
     "x": -1133.54,
     "y": 509.87,
     "colour": "#fabebe",
-    "preview_url": "https://www.youtube.com/results?search_query=Kamal+El+Oujdi+Arouahi+Lia",
+    "preview_url": "https://www.youtube.com/watch?v=AmOBY-VCy8E",
     "buy_url": "https://bandcamp.com/search?q=Kamal+El+Oujdi+Arouahi+Lia"
   },
   {
@@ -1980,7 +1980,7 @@
     "x": 1134.44,
     "y": 980.57,
     "colour": "#f58231",
-    "preview_url": "https://www.youtube.com/results?search_query=Yoshiaki+Ochi+Anywhere",
+    "preview_url": "https://www.youtube.com/watch?v=tCBZYSMKRzs",
     "buy_url": "https://bandcamp.com/search?q=Yoshiaki+Ochi+Anywhere"
   },
   {
@@ -1996,7 +1996,7 @@
     "x": 969.44,
     "y": 1075.83,
     "colour": "#f58231",
-    "preview_url": "https://www.youtube.com/results?search_query=TCP+At+The+Water-Hole+(Wolf+Müller+Edit)",
+    "preview_url": "https://www.youtube.com/watch?v=wzmiSBno0TM",
     "buy_url": "https://bandcamp.com/search?q=TCP+At+The+Water-Hole+(Wolf+Müller+Edit)"
   },
   {
@@ -2012,7 +2012,7 @@
     "x": 1467.4,
     "y": 308.56,
     "colour": "#3cb44b",
-    "preview_url": "https://www.youtube.com/results?search_query=Synthese+Requiem+Pour+Rodin",
+    "preview_url": "https://www.youtube.com/watch?v=LoKaKghTHl0",
     "buy_url": "https://bandcamp.com/search?q=Synthese+Requiem+Pour+Rodin"
   },
   {
@@ -2028,7 +2028,7 @@
     "x": 1302.4,
     "y": 403.83,
     "colour": "#3cb44b",
-    "preview_url": "https://www.youtube.com/results?search_query=Richard+Souther+Depths+Above",
+    "preview_url": "https://www.youtube.com/watch?v=-TeNmG293Tg",
     "buy_url": "https://bandcamp.com/search?q=Richard+Souther+Depths+Above"
   },
   {
@@ -2044,7 +2044,7 @@
     "x": -177.98,
     "y": 1488.89,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Zsa+Zsa+La+Boum+Tu+Veux+Ou+Tu+Veux+Pas",
+    "preview_url": "https://www.youtube.com/watch?v=sFx0djiI-h8",
     "buy_url": "https://bandcamp.com/search?q=Zsa+Zsa+La+Boum+Tu+Veux+Ou+Tu+Veux+Pas"
   },
   {
@@ -2060,7 +2060,7 @@
     "x": -342.98,
     "y": 1584.15,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=ubik+Ram+Raid",
+    "preview_url": "https://www.youtube.com/watch?v=rk0RimiGuMI",
     "buy_url": "https://bandcamp.com/search?q=ubik+Ram+Raid"
   },
   {
@@ -2076,7 +2076,7 @@
     "x": -177.98,
     "y": 1679.41,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Takis+Gritzelis+Paris+Istanbul+(Instrumental)",
+    "preview_url": "https://www.youtube.com/watch?v=juUg7tik3lM",
     "buy_url": "https://bandcamp.com/search?q=Takis+Gritzelis+Paris+Istanbul+(Instrumental)"
   },
   {
@@ -2092,7 +2092,7 @@
     "x": -12.98,
     "y": 1584.15,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Sick+HardCore+Protect+the+Innocents",
+    "preview_url": "https://www.youtube.com/watch?v=O0OxxIZiiyU",
     "buy_url": "https://bandcamp.com/search?q=Sick+HardCore+Protect+the+Innocents"
   },
   {
@@ -2108,7 +2108,7 @@
     "x": -12.98,
     "y": 1393.62,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Secrets+Of+China+Chinese+Ways",
+    "preview_url": "https://www.youtube.com/watch?v=edvV3D1tooQ",
     "buy_url": "https://bandcamp.com/search?q=Secrets+Of+China+Chinese+Ways"
   },
   {
@@ -2124,7 +2124,7 @@
     "x": -177.98,
     "y": 1298.36,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Recall+IV+Contrast+(Boing+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=MP67O7tV3y8",
     "buy_url": "https://bandcamp.com/search?q=Recall+IV+Contrast+(Boing+Mix)"
   },
   {
@@ -2140,7 +2140,7 @@
     "x": -342.98,
     "y": 1393.62,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Voyou+Houseman+(Germany+calling+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=YmG1WNclFXk",
     "buy_url": "https://bandcamp.com/search?q=Voyou+Houseman+(Germany+calling+Mix)"
   },
   {
@@ -2156,7 +2156,7 @@
     "x": -1148.0,
     "y": -582.81,
     "colour": "#008080",
-    "preview_url": "https://www.youtube.com/results?search_query=The+Force+Dimension+Algorythm+(Manipulating+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=aa80k-eXpq4",
     "buy_url": "https://bandcamp.com/search?q=The+Force+Dimension+Algorythm+(Manipulating+Mix)"
   },
   {
@@ -2172,7 +2172,7 @@
     "x": -1067.57,
     "y": -719.61,
     "colour": "#3cb44b",
-    "preview_url": "https://www.youtube.com/results?search_query=Teknokrat's+Space+Beat",
+    "preview_url": "https://www.youtube.com/watch?v=M0878pgXVdg",
     "buy_url": "https://bandcamp.com/search?q=Teknokrat's+Space+Beat"
   },
   {
@@ -2188,7 +2188,7 @@
     "x": -21.58,
     "y": -1523.74,
     "colour": "#808080",
-    "preview_url": "https://www.youtube.com/results?search_query=Unknown+Artist+Untitled",
+    "preview_url": "https://www.youtube.com/watch?v=4ZQ_YXaO3I0",
     "buy_url": "https://bandcamp.com/search?q=Unknown+Artist+Untitled"
   },
   {
@@ -2204,7 +2204,7 @@
     "x": -186.58,
     "y": -1428.48,
     "colour": "#808080",
-    "preview_url": "https://www.youtube.com/results?search_query=The+Suburban+Techno+Salseros+Un+Rifle+Oracion",
+    "preview_url": "https://www.youtube.com/watch?v=FM50W-6KLKY",
     "buy_url": "https://bandcamp.com/search?q=The+Suburban+Techno+Salseros+Un+Rifle+Oracion"
   },
   {
@@ -2220,7 +2220,7 @@
     "x": 581.29,
     "y": -1174.75,
     "colour": "#e6194b",
-    "preview_url": "https://www.youtube.com/results?search_query=Telex+Basta",
+    "preview_url": "https://www.youtube.com/watch?v=BIJ8ybeJS_I",
     "buy_url": "https://bandcamp.com/search?q=Telex+Basta"
   },
   {
@@ -2236,7 +2236,7 @@
     "x": -711.32,
     "y": -1347.69,
     "colour": "#4363d8",
-    "preview_url": "https://www.youtube.com/results?search_query=عمرو+إسماعيل+وحيد",
+    "preview_url": "https://www.youtube.com/watch?v=qI0EB6c6qWI",
     "buy_url": "https://bandcamp.com/search?q=عمرو+إسماعيل+وحيد"
   },
   {
@@ -2252,7 +2252,7 @@
     "x": -876.32,
     "y": -1252.43,
     "colour": "#4363d8",
-    "preview_url": "https://www.youtube.com/results?search_query=Portable+Rock+Kiss+The+Fish",
+    "preview_url": "https://www.youtube.com/watch?v=XoUEsN9_arI",
     "buy_url": "https://bandcamp.com/search?q=Portable+Rock+Kiss+The+Fish"
   },
   {
@@ -2268,7 +2268,7 @@
     "x": -1348.74,
     "y": 733.73,
     "colour": "#f58231",
-    "preview_url": "https://www.youtube.com/results?search_query=سيمون+Mabsouta",
+    "preview_url": "https://www.youtube.com/watch?v=Xb6F8nFmoj4",
     "buy_url": "https://bandcamp.com/search?q=سيمون+Mabsouta"
   },
   {
@@ -2284,7 +2284,7 @@
     "x": -1513.74,
     "y": 828.99,
     "colour": "#f58231",
-    "preview_url": "https://www.youtube.com/results?search_query=Zina+Hypnotized",
+    "preview_url": "https://www.youtube.com/watch?v=0Qonz9IDU4U",
     "buy_url": "https://bandcamp.com/search?q=Zina+Hypnotized"
   },
   {
@@ -2300,7 +2300,7 @@
     "x": -1348.74,
     "y": 924.26,
     "colour": "#f58231",
-    "preview_url": "https://www.youtube.com/results?search_query=Zina+Fighting+Your+Emotion",
+    "preview_url": "https://www.youtube.com/watch?v=XSX0wNRL6NY",
     "buy_url": "https://bandcamp.com/search?q=Zina+Fighting+Your+Emotion"
   },
   {
@@ -2316,7 +2316,7 @@
     "x": -1183.74,
     "y": 828.99,
     "colour": "#f58231",
-    "preview_url": "https://www.youtube.com/results?search_query=Vito+Ricci+I'm+At+That+Party+Right+Now",
+    "preview_url": "https://www.youtube.com/watch?v=TqXQjvhwke4",
     "buy_url": "https://bandcamp.com/search?q=Vito+Ricci+I'm+At+That+Party+Right+Now"
   },
   {
@@ -2332,7 +2332,7 @@
     "x": -1183.74,
     "y": 638.47,
     "colour": "#f58231",
-    "preview_url": "https://www.youtube.com/results?search_query=Talking+Heads+Seen+and+Not+Seen+(2005+Remaster)",
+    "preview_url": "https://www.youtube.com/watch?v=PH5JvU19_YQ",
     "buy_url": "https://bandcamp.com/search?q=Talking+Heads+Seen+and+Not+Seen+(2005+Remaster)"
   },
   {
@@ -2348,7 +2348,7 @@
     "x": 476.24,
     "y": -1466.97,
     "colour": "#46f0f0",
-    "preview_url": "https://www.youtube.com/results?search_query=Yukihiro+Takahashi+Present",
+    "preview_url": "https://www.youtube.com/watch?v=_g6BFNF0xpk",
     "buy_url": "https://bandcamp.com/search?q=Yukihiro+Takahashi+Present"
   },
   {
@@ -2364,7 +2364,7 @@
     "x": 311.24,
     "y": -1371.7,
     "colour": "#46f0f0",
-    "preview_url": "https://www.youtube.com/results?search_query=Various+Artists+Random+Access+-+Bodywork",
+    "preview_url": "https://www.youtube.com/watch?v=H99dEiriISI",
     "buy_url": "https://bandcamp.com/search?q=Various+Artists+Random+Access+-+Bodywork"
   },
   {
@@ -2380,7 +2380,7 @@
     "x": 476.24,
     "y": -1276.44,
     "colour": "#46f0f0",
-    "preview_url": "https://www.youtube.com/results?search_query=Cheryl+Glasgow+Glued+To+The+Spot+(Club+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=cjQWnTZyofc",
     "buy_url": "https://bandcamp.com/search?q=Cheryl+Glasgow+Glued+To+The+Spot+(Club+Mix)"
   },
   {
@@ -2396,7 +2396,7 @@
     "x": -256.77,
     "y": -1320.97,
     "colour": "#000075",
-    "preview_url": "https://www.youtube.com/results?search_query=Yello+Oh+Yeah+(Remastered+2005)",
+    "preview_url": "https://www.youtube.com/watch?v=GMy6Is5JPQU",
     "buy_url": "https://bandcamp.com/search?q=Yello+Oh+Yeah+(Remastered+2005)"
   },
   {
@@ -2412,7 +2412,7 @@
     "x": -1196.75,
     "y": -1001.99,
     "colour": "#800000",
-    "preview_url": "https://www.youtube.com/results?search_query=Yasuha+Fly-day+Chinatown",
+    "preview_url": "https://www.youtube.com/watch?v=4X7ZvpwBiKA",
     "buy_url": "https://bandcamp.com/search?q=Yasuha+Fly-day+Chinatown"
   },
   {
@@ -2428,7 +2428,7 @@
     "x": -1361.75,
     "y": -906.73,
     "colour": "#800000",
-    "preview_url": "https://www.youtube.com/results?search_query=Minako+Yoshida+Town",
+    "preview_url": "https://www.youtube.com/watch?v=mCHy6H2QDEY",
     "buy_url": "https://bandcamp.com/search?q=Minako+Yoshida+Town"
   },
   {
@@ -2444,7 +2444,7 @@
     "x": -1488.76,
     "y": -594.83,
     "colour": "#800000",
-    "preview_url": "https://www.youtube.com/results?search_query=Was+(Not+Was)+Wheel+Me+Out",
+    "preview_url": "https://www.youtube.com/watch?v=_mCwO_uKQv8",
     "buy_url": "https://bandcamp.com/search?q=Was+(Not+Was)+Wheel+Me+Out"
   },
   {
@@ -2460,7 +2460,7 @@
     "x": -1653.76,
     "y": -499.57,
     "colour": "#800000",
-    "preview_url": "https://www.youtube.com/results?search_query=Rollets+La+Primera+Vez",
+    "preview_url": "https://www.youtube.com/watch?v=FStGAKcxz7M",
     "buy_url": "https://bandcamp.com/search?q=Rollets+La+Primera+Vez"
   },
   {
@@ -2476,7 +2476,7 @@
     "x": -1488.76,
     "y": -404.31,
     "colour": "#800000",
-    "preview_url": "https://www.youtube.com/results?search_query=The+Jacksons+Wondering+Who",
+    "preview_url": "https://www.youtube.com/watch?v=VRRaTiVT_io",
     "buy_url": "https://bandcamp.com/search?q=The+Jacksons+Wondering+Who"
   },
   {
@@ -2492,7 +2492,7 @@
     "x": -1323.76,
     "y": -499.57,
     "colour": "#800000",
-    "preview_url": "https://www.youtube.com/results?search_query=Skyy+First+Time+Around",
+    "preview_url": "https://www.youtube.com/watch?v=hurGFoSBkfU",
     "buy_url": "https://bandcamp.com/search?q=Skyy+First+Time+Around"
   },
   {
@@ -2508,7 +2508,7 @@
     "x": -1323.76,
     "y": -690.09,
     "colour": "#800000",
-    "preview_url": "https://www.youtube.com/results?search_query=Philly+Devotions+I+Just+Can't+Say+Goodbye",
+    "preview_url": "https://www.youtube.com/watch?v=Ow2TE4n6JdU",
     "buy_url": "https://bandcamp.com/search?q=Philly+Devotions+I+Just+Can't+Say+Goodbye"
   },
   {
@@ -2524,7 +2524,7 @@
     "x": -1488.76,
     "y": -785.36,
     "colour": "#800000",
-    "preview_url": "https://www.youtube.com/results?search_query=Sunshine+Take+It+To+The+Zoo",
+    "preview_url": "https://www.youtube.com/watch?v=lIs7QTywoZw",
     "buy_url": "https://bandcamp.com/search?q=Sunshine+Take+It+To+The+Zoo"
   },
   {
@@ -2540,7 +2540,7 @@
     "x": -1653.76,
     "y": -690.09,
     "colour": "#800000",
-    "preview_url": "https://www.youtube.com/results?search_query=Stinger+J+Pretty+Face+(12\"+Version)",
+    "preview_url": "https://www.youtube.com/watch?v=ro65NOOyCdc",
     "buy_url": "https://bandcamp.com/search?q=Stinger+J+Pretty+Face+(12\"+Version)"
   },
   {
@@ -2556,7 +2556,7 @@
     "x": -669.42,
     "y": 1586.53,
     "colour": "#e6beff",
-    "preview_url": "https://www.youtube.com/results?search_query=Various+Artists+Tubular+Bells/Pretty+Boys+And+Pretty+Girls+(Regan's+House+Medley)",
+    "preview_url": "https://www.youtube.com/watch?v=Dbbn9iUt-6U",
     "buy_url": "https://bandcamp.com/search?q=Various+Artists+Tubular+Bells/Pretty+Boys+And+Pretty+Girls+(Regan's+House+Medley)"
   },
   {
@@ -2572,7 +2572,7 @@
     "x": -834.42,
     "y": 1681.79,
     "colour": "#e6beff",
-    "preview_url": "https://www.youtube.com/results?search_query=Renée+Change+your+style",
+    "preview_url": "https://www.youtube.com/watch?v=hNCLoLzQMvM",
     "buy_url": "https://bandcamp.com/search?q=Renée+Change+your+style"
   },
   {
@@ -2588,7 +2588,7 @@
     "x": -1689.12,
     "y": 366.04,
     "colour": "#fffac8",
-    "preview_url": "https://www.youtube.com/results?search_query=Roberto+Roena+Y+Su+Apollo+Sound+Ponte+Duro",
+    "preview_url": "https://www.youtube.com/watch?v=c94os416E9k",
     "buy_url": "https://bandcamp.com/search?q=Roberto+Roena+Y+Su+Apollo+Sound+Ponte+Duro"
   },
   {
@@ -2604,7 +2604,7 @@
     "x": -1854.12,
     "y": 461.31,
     "colour": "#fffac8",
-    "preview_url": "https://www.youtube.com/results?search_query=Justo+Betancourt+Pa'+Bravo+Yo",
+    "preview_url": "https://www.youtube.com/watch?v=Dk5jdAhHBD0",
     "buy_url": "https://bandcamp.com/search?q=Justo+Betancourt+Pa'+Bravo+Yo"
   },
   {
@@ -2620,7 +2620,7 @@
     "x": -1689.12,
     "y": 556.57,
     "colour": "#fffac8",
-    "preview_url": "https://www.youtube.com/results?search_query=Eddie+Palmieri+Vamonos+Pa'L+Monte",
+    "preview_url": "https://www.youtube.com/watch?v=Rn85kvb4bTk",
     "buy_url": "https://bandcamp.com/search?q=Eddie+Palmieri+Vamonos+Pa'L+Monte"
   },
   {
@@ -2636,7 +2636,7 @@
     "x": -828.75,
     "y": -1060.23,
     "colour": "#9a6324",
-    "preview_url": "https://www.youtube.com/results?search_query=Yuri+Suzuki+Intensive+Washing",
+    "preview_url": "https://www.youtube.com/watch?v=wIdcQX97kms",
     "buy_url": "https://bandcamp.com/search?q=Yuri+Suzuki+Intensive+Washing"
   },
   {
@@ -2652,7 +2652,7 @@
     "x": 976.5,
     "y": -1438.82,
     "colour": "#e6194b",
-    "preview_url": "https://www.youtube.com/results?search_query=Variable+Frequency+Technician+Cross+Section+(Original+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=AqZRtRABFKQ",
     "buy_url": "https://bandcamp.com/search?q=Variable+Frequency+Technician+Cross+Section+(Original+Mix)"
   },
   {
@@ -2668,7 +2668,7 @@
     "x": 811.5,
     "y": -1343.55,
     "colour": "#e6194b",
-    "preview_url": "https://www.youtube.com/results?search_query=Underworld+Rez",
+    "preview_url": "https://www.youtube.com/watch?v=F6Y7lcvubhU",
     "buy_url": "https://bandcamp.com/search?q=Underworld+Rez"
   },
   {
@@ -2684,7 +2684,7 @@
     "x": 976.5,
     "y": -1248.29,
     "colour": "#e6194b",
-    "preview_url": "https://www.youtube.com/results?search_query=The+Pump+Panel+Ego+Acid",
+    "preview_url": "https://www.youtube.com/watch?v=vAolLRCs2i8",
     "buy_url": "https://bandcamp.com/search?q=The+Pump+Panel+Ego+Acid"
   },
   {
@@ -2700,7 +2700,7 @@
     "x": 1141.5,
     "y": -1343.55,
     "colour": "#e6194b",
-    "preview_url": "https://www.youtube.com/results?search_query=Sven+Väth+Mellow+Illusion",
+    "preview_url": "https://www.youtube.com/watch?v=SK2UbfkDUoA",
     "buy_url": "https://bandcamp.com/search?q=Sven+Väth+Mellow+Illusion"
   },
   {
@@ -2716,7 +2716,7 @@
     "x": -416.98,
     "y": 1290.63,
     "colour": "#fabebe",
-    "preview_url": "https://www.youtube.com/results?search_query=Tyree+Let+it+go",
+    "preview_url": "https://www.youtube.com/watch?v=va1nxDdl7Jk",
     "buy_url": "https://bandcamp.com/search?q=Tyree+Let+it+go"
   },
   {
@@ -2732,7 +2732,7 @@
     "x": 968.43,
     "y": 1453.32,
     "colour": "#000075",
-    "preview_url": "https://www.youtube.com/results?search_query=Round+Two+New+Day+Dub",
+    "preview_url": "https://www.youtube.com/watch?v=te7kUPHgRS8",
     "buy_url": "https://bandcamp.com/search?q=Round+Two+New+Day+Dub"
   },
   {
@@ -2748,7 +2748,7 @@
     "x": 803.43,
     "y": 1548.58,
     "colour": "#000075",
-    "preview_url": "https://www.youtube.com/results?search_query=Rhythm,+Sound+See+Mi+Version+(Basic+Reshape)",
+    "preview_url": "https://www.youtube.com/watch?v=G8jJfDFbQa4",
     "buy_url": "https://bandcamp.com/search?q=Rhythm,+Sound+See+Mi+Version+(Basic+Reshape)"
   },
   {
@@ -2764,7 +2764,7 @@
     "x": 1598.69,
     "y": 792.1,
     "colour": "#3cb44b",
-    "preview_url": "https://www.youtube.com/results?search_query=Serious+Danger+Battle+Plate",
+    "preview_url": "https://www.youtube.com/watch?v=JHHlqFBJgmg",
     "buy_url": "https://bandcamp.com/search?q=Serious+Danger+Battle+Plate"
   },
   {
@@ -2780,7 +2780,7 @@
     "x": 1433.69,
     "y": 887.37,
     "colour": "#3cb44b",
-    "preview_url": "https://www.youtube.com/results?search_query=Panjabi+MC+Bheer",
+    "preview_url": "https://www.youtube.com/watch?v=4RsXyeTPMjM",
     "buy_url": "https://bandcamp.com/search?q=Panjabi+MC+Bheer"
   },
   {
@@ -2796,7 +2796,7 @@
     "x": 1598.69,
     "y": 982.63,
     "colour": "#3cb44b",
-    "preview_url": "https://www.youtube.com/results?search_query=Microman+Stay+In+Bed+(Stringbrake+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=Oa0ZnzYLJ5o",
     "buy_url": "https://bandcamp.com/search?q=Microman+Stay+In+Bed+(Stringbrake+Mix)"
   },
   {
@@ -2812,7 +2812,7 @@
     "x": 1248.84,
     "y": 529.15,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=Xlnc+PEDRO+Madhouse+Productions+Pier-Giorgio+Raj+Ghai+Sat-Rangi+Chooriyan",
+    "preview_url": "https://www.youtube.com/watch?v=zo3PzQegLJ4",
     "buy_url": "https://bandcamp.com/search?q=Xlnc+PEDRO+Madhouse+Productions+Pier-Giorgio+Raj+Ghai+Sat-Rangi+Chooriyan"
   },
   {
@@ -2828,7 +2828,7 @@
     "x": 1603.12,
     "y": -817.32,
     "colour": "#4363d8",
-    "preview_url": "https://www.youtube.com/results?search_query=Vincent+Ahéhéhinnou+Best+Woman",
+    "preview_url": "https://www.youtube.com/watch?v=PmX4wdgADOo",
     "buy_url": "https://bandcamp.com/search?q=Vincent+Ahéhéhinnou+Best+Woman"
   },
   {
@@ -2844,7 +2844,7 @@
     "x": 1438.12,
     "y": -722.05,
     "colour": "#4363d8",
-    "preview_url": "https://www.youtube.com/results?search_query=Tony+Allen+Nepa+(Dance+Dub)",
+    "preview_url": "https://www.youtube.com/watch?v=qsU9cN7OL4Q",
     "buy_url": "https://bandcamp.com/search?q=Tony+Allen+Nepa+(Dance+Dub)"
   },
   {
@@ -2860,7 +2860,7 @@
     "x": 836.4,
     "y": 1067.73,
     "colour": "#ffe119",
-    "preview_url": "https://www.youtube.com/results?search_query=The+Strangers+Onye+Ije",
+    "preview_url": "https://www.youtube.com/watch?v=ZKFYrnWOI9I",
     "buy_url": "https://bandcamp.com/search?q=The+Strangers+Onye+Ije"
   },
   {
@@ -2876,7 +2876,7 @@
     "x": 701.21,
     "y": -1170.34,
     "colour": "#808000",
-    "preview_url": "https://www.youtube.com/results?search_query=The+Bees+Hlabalaza",
+    "preview_url": "https://www.youtube.com/watch?v=AKlIljCQMFc",
     "buy_url": "https://bandcamp.com/search?q=The+Bees+Hlabalaza"
   },
   {
@@ -2892,7 +2892,7 @@
     "x": -1301.55,
     "y": 426.81,
     "colour": "#f58231",
-    "preview_url": "https://www.youtube.com/results?search_query=Tanya+St-val+Carole",
+    "preview_url": "https://www.youtube.com/watch?v=uh7ybt2bDSo",
     "buy_url": "https://bandcamp.com/search?q=Tanya+St-val+Carole"
   },
   {
@@ -2908,7 +2908,7 @@
     "x": 1830.8,
     "y": -36.38,
     "colour": "#e6194b",
-    "preview_url": "https://www.youtube.com/results?search_query=Stratus+Girl+(From+Aor+Global+Sounds+Vol.3)",
+    "preview_url": "https://www.youtube.com/watch?v=Co71rSe1xhQ",
     "buy_url": "https://bandcamp.com/search?q=Stratus+Girl+(From+Aor+Global+Sounds+Vol.3)"
   },
   {
@@ -2924,7 +2924,7 @@
     "x": 1665.8,
     "y": 58.88,
     "colour": "#e6194b",
-    "preview_url": "https://www.youtube.com/results?search_query=MCF+Colorado-Red+Sky",
+    "preview_url": "https://www.youtube.com/watch?v=nKP9LnftEEQ",
     "buy_url": "https://bandcamp.com/search?q=MCF+Colorado-Red+Sky"
   },
   {
@@ -2940,7 +2940,7 @@
     "x": -1063.9,
     "y": 877.38,
     "colour": "#fffac8",
-    "preview_url": "https://www.youtube.com/results?search_query=Wayne+Smith+Interface",
+    "preview_url": "https://www.youtube.com/watch?v=9onR3N5VaVA",
     "buy_url": "https://bandcamp.com/search?q=Wayne+Smith+Interface"
   },
   {
@@ -2956,7 +2956,7 @@
     "x": 228.87,
     "y": 2048.13,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=Walid+Rouissi+يا+مسافر",
+    "preview_url": "https://www.youtube.com/watch?v=SWtCs2Ola_Q",
     "buy_url": "https://bandcamp.com/search?q=Walid+Rouissi+يا+مسافر"
   },
   {
@@ -2972,7 +2972,7 @@
     "x": 63.87,
     "y": 2143.39,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=The+Congos+Solid+Foundation+(Disco+Cork+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=QmaohP95i2k",
     "buy_url": "https://bandcamp.com/search?q=The+Congos+Solid+Foundation+(Disco+Cork+Mix)"
   },
   {
@@ -2988,7 +2988,7 @@
     "x": 228.87,
     "y": 2238.65,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=Tappa+Zukie+Tapper+Zukie+In+Dub",
+    "preview_url": "https://www.youtube.com/watch?v=H04XbCaewgg",
     "buy_url": "https://bandcamp.com/search?q=Tappa+Zukie+Tapper+Zukie+In+Dub"
   },
   {
@@ -3004,7 +3004,7 @@
     "x": 393.87,
     "y": 2143.39,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=St+Germain+Dub+Experience",
+    "preview_url": "https://www.youtube.com/watch?v=MU4udFcF8sI",
     "buy_url": "https://bandcamp.com/search?q=St+Germain+Dub+Experience"
   },
   {
@@ -3020,7 +3020,7 @@
     "x": 393.87,
     "y": 1952.86,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=Roots+Radics+Dangerous+Match+One",
+    "preview_url": "https://www.youtube.com/watch?v=2kC_MWMX2o8",
     "buy_url": "https://bandcamp.com/search?q=Roots+Radics+Dangerous+Match+One"
   },
   {
@@ -3036,7 +3036,7 @@
     "x": 228.87,
     "y": 1857.6,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=Revolutionary+Dub+Warriors+Rough+Dub",
+    "preview_url": "https://www.youtube.com/watch?v=yzJtFefkvvc",
     "buy_url": "https://bandcamp.com/search?q=Revolutionary+Dub+Warriors+Rough+Dub"
   },
   {
@@ -3052,7 +3052,7 @@
     "x": 63.87,
     "y": 1952.86,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=Prince+Far+I+Low+Gravity",
+    "preview_url": "https://www.youtube.com/watch?v=dEBZfMEPxnE",
     "buy_url": "https://bandcamp.com/search?q=Prince+Far+I+Low+Gravity"
   },
   {
@@ -3068,7 +3068,7 @@
     "x": -101.13,
     "y": 2238.65,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=Peter+Chemist+Dress+up+Dub",
+    "preview_url": "https://www.youtube.com/watch?v=tzErevu7GSk",
     "buy_url": "https://bandcamp.com/search?q=Peter+Chemist+Dress+up+Dub"
   },
   {
@@ -3084,7 +3084,7 @@
     "x": 63.87,
     "y": 2333.92,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=Nicolini+Sopratutto+(Original)",
+    "preview_url": "https://www.youtube.com/watch?v=h6mkCbSESu0",
     "buy_url": "https://bandcamp.com/search?q=Nicolini+Sopratutto+(Original)"
   },
   {
@@ -3100,7 +3100,7 @@
     "x": -610.71,
     "y": 1236.41,
     "colour": "#808080",
-    "preview_url": "https://www.youtube.com/results?search_query=ubik+1991+(I.M.W.+Mix)",
+    "preview_url": "https://www.youtube.com/watch?v=FpTt9wp3Wno",
     "buy_url": "https://bandcamp.com/search?q=ubik+1991+(I.M.W.+Mix)"
   },
   {
@@ -3116,7 +3116,7 @@
     "x": -376.61,
     "y": -1327.18,
     "colour": "#9a6324",
-    "preview_url": "https://www.youtube.com/results?search_query=Twinkle+Brothers,+Jah+Shaka,+Twinkle+Brothers,+Jah+Shaka+Jah+Shall+Reign",
+    "preview_url": "https://www.youtube.com/watch?v=fBEPjjzWTFE",
     "buy_url": "https://bandcamp.com/search?q=Twinkle+Brothers,+Jah+Shaka,+Twinkle+Brothers,+Jah+Shaka+Jah+Shall+Reign"
   },
   {
@@ -3132,7 +3132,7 @@
     "x": 1380.64,
     "y": -39.4,
     "colour": "#911eb4",
-    "preview_url": "https://www.youtube.com/results?search_query=The+Orb+U.F.Orb",
+    "preview_url": "https://www.youtube.com/watch?v=5SH4KGM_B54",
     "buy_url": "https://bandcamp.com/search?q=The+Orb+U.F.Orb"
   },
   {
@@ -3148,7 +3148,7 @@
     "x": 1212.12,
     "y": -662.2,
     "colour": "#f032e6",
-    "preview_url": "https://www.youtube.com/results?search_query=Koop+Summer+Sun",
+    "preview_url": "https://www.youtube.com/watch?v=V9A1JLlwUaM",
     "buy_url": "https://bandcamp.com/search?q=Koop+Summer+Sun"
   },
   {
@@ -3164,7 +3164,7 @@
     "x": 842.87,
     "y": -1094.21,
     "colour": "#f58231",
-    "preview_url": "https://www.youtube.com/results?search_query=Walter+Thomas+I+Wanna+Get+Witcha",
+    "preview_url": "https://www.youtube.com/watch?v=dpt2v7gzVfc",
     "buy_url": "https://bandcamp.com/search?q=Walter+Thomas+I+Wanna+Get+Witcha"
   },
   {
@@ -3180,7 +3180,7 @@
     "x": -453.67,
     "y": -1777.42,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=Tommy+Stewart+Riding+High",
+    "preview_url": "https://www.youtube.com/watch?v=UkelXkcMMCU",
     "buy_url": "https://bandcamp.com/search?q=Tommy+Stewart+Riding+High"
   },
   {
@@ -3196,7 +3196,7 @@
     "x": -618.67,
     "y": -1682.16,
     "colour": "#ffd8b1",
-    "preview_url": "https://www.youtube.com/results?search_query=The+5th+Dimension+Ashes+To+Ashes",
+    "preview_url": "https://www.youtube.com/watch?v=2A5xug2Chcs",
     "buy_url": "https://bandcamp.com/search?q=The+5th+Dimension+Ashes+To+Ashes"
   }
 ]

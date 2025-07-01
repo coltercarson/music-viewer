@@ -1,3 +1,5 @@
 data/music
 frontend/node_modules
 __pycache__/
+data/secrets.json
+node_modules
