@@ -36,9 +36,10 @@ install node.js at https://nodejs.org/en/download
   - Title Bar: display file library name, name of current view (e.g., all songs, grouped by primary genre into hex islands) date created and some stats?
   - Favicon? low priority
   - Mobile UI: pinch to zoom, click to select, improve panning?
-
+  - Create 'liked' playlist (on hover, show heart icon, on click add to list in sidebar?) -- option to export as text? or youtube playlist?
+ 
 - Performance: test with a larger library (e.g., 2000 tracks?)
-  - Is dynamic loading/chunking needed to avoid lags?
+  - Is dynamic loading/chunking needed to avoid lags? limit zoom out and then only load tiles within view?
   - What is file size for prepared.json when library of this size is loaded?
 
 - At some point:
