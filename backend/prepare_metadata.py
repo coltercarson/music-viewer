@@ -4,9 +4,9 @@ from pathlib import Path
 import json
 import hashlib
 from collections import defaultdict
-import math
 from typing import List, Tuple, Literal
-import json
+from tqdm import tqdm
+from youtubesearchpython import VideosSearch
 
 from plot import check_layout
 
@@ -15,6 +15,10 @@ from plot import check_layout
 config_path = Path(__file__).parent.parent / "config.json"
 with open(config_path, "r", encoding="utf-8") as f:
     config = json.load(f)
+
+secrets_path = Path(__file__).parent.parent / "data" / "secrets.json"
+with open(secrets_path, "r", encoding="utf-8") as f:
+    secrets = json.load(f)
 
 TILE_SIZE = config.get("tileSize")
 INNER_GAP = config.get("tileGap")
@@ -378,9 +382,10 @@ def main(input_json: Path, output_json: Path):
 
     prepared_tracks = []
 
-    for island in islands_db:
-        for i, track in enumerate(island.tracks):
+    for island in tqdm(islands_db, desc="Processing islands"):
+        for i, track in enumerate(tqdm(island.tracks, desc=f"Tracks in {island.genre}", leave=False)):
             decade = estimate_decade(track.get("date"))
+            youtube_url = get_youtube_url(track) if track.get("artist") and track.get("title") else None
             prepared = {
                 "id": generate_id(track),
                 "title": track.get("title", "Unknown Title"),
@@ -394,7 +399,7 @@ def main(input_json: Path, output_json: Path):
                 "x": round(island.tile_positions[i][0], 2),
                 "y": round(island.tile_positions[i][1], 2),
                 "colour": island.colour,
-                "preview_url": f"https://www.youtube.com/results?search_query={track.get('artist', '')}+{track.get('title', '')}".replace(" ", "+"),
+                "preview_url": youtube_url,
                 "buy_url": f"https://bandcamp.com/search?q={track.get('artist', '')}+{track.get('title', '')}".replace(" ", "+"),
             }
             prepared_tracks.append(prepared)
