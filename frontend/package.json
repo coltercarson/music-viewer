@@ -10,7 +10,8 @@
     "konva": "^9.2.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-konva": "^18.0.0-0"
+    "react-konva": "^18.0.0-0",
+    "react-youtube": "^10.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.6.0",
