@@ -8,7 +8,8 @@
             "name": "Python Debugger: Python File",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}"
+            "program": "${file}",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
