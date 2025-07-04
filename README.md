@@ -32,6 +32,7 @@ install node.js at https://nodejs.org/en/download
     - Genre relations? Place similar genres closer together
     - Venn diagram style -- set 'genre centres' and then place track tile with equal proximity to each relevant centre? weighting based on primary, secondary, tertiary?? 
   - File list view with sorting/search/filtering (like rekordbox collection view) -- file structure tree view?? use List.js
+  - Reveal file in directory view (similar to soulseek)
 
 - General UI:
   - Title Bar: display file library name, name of current view (e.g., all songs, grouped by primary genre into hex islands) date created and some stats?
@@ -47,7 +48,13 @@ install node.js at https://nodejs.org/en/download
   - Handle Discogs collection/wantlist export (.csv)
   - Handle other music management software exports (serato, engine, itunes)
   - Bandcamp collection/wantlist exports: https://github.com/dbeley/bandcamp-library-scraper
-  - Streaming libraries?? 
+  - Streaming libraries??
+ 
+- Long-term:
+  - Chat room??
+  - Message boards for each tile?
+  - 3D implementation -- low poly museum w rooms for different styles/groupings? Hidden things?
+  - Collect liked tracks into a playlist -- can export this later
 
 ## Frontend
 
