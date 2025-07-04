@@ -35,7 +35,7 @@ install node.js at https://nodejs.org/en/download
   - Reveal file in directory view (similar to soulseek)
 
 - General UI:
-  - Title Bar: display file library name, name of current view (e.g., all songs, grouped by primary genre into hex islands) date created and some stats?
+  - Title Bar: display file library name, name of current view (e.g., all songs, grouped by primary genre into hex islands) date created and some stats (number of tracks)?
   - Favicon? low priority
   - Mobile UI: pinch to zoom, click to select, improve panning?
   - Create 'liked' playlist (on hover, show heart icon, on click add to list in sidebar?) -- option to export as text? or youtube playlist?
