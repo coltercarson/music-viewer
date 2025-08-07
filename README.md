@@ -9,6 +9,7 @@ install node.js at https://nodejs.org/en/download
 # Planned features:
 - File scanning:
   - Get track length
+  - Get discogs link
  
 - Handle rekordbox.yml files:
   - Generate prepared.json from rekordbox library instead of file scan
@@ -49,6 +50,7 @@ install node.js at https://nodejs.org/en/download
   - Handle other music management software exports (serato, engine, itunes)
   - Bandcamp collection/wantlist exports: https://github.com/dbeley/bandcamp-library-scraper
   - Streaming libraries??
+  - Page for DJ mixes/original material?
  
 - Long-term:
   - Chat room??
